@@ -1,0 +1,6705 @@
+html,
+body {
+  height: 100%;
+}
+.pad {
+  /*
+.waiting .img-rounded{
+    opacity: 0.6;
+}
+.paused .img-rounded{
+    opacity: 0.6;
+}
+.running .img-rounded{
+    opacity: 0.6;
+}*/
+  /*.s-main-middle {
+    position: relative;
+    margin: 0 auto;
+    width: 86%;
+    height: 100%;
+    background-color: #FFF;
+}*/
+  /* bookshop details */
+  /*
+.btn-area {
+    padding:3px;    
+    border-radius: 30px;
+    font-family: '迷你简少儿'; 
+    background-color: rgb(253,33,71); 
+}
+.btn-area > div {
+    padding: 5px 8px 3.5px 8px;
+    border: dashed 1px;
+    border-color:#FFF;    
+    color: #FFF;
+    font-size: 26px;
+    border-radius: 24px;    
+    line-height: 100%; 
+    text-align: center;  
+}
+.login-no {
+    position: absolute;
+    top: 5%;
+    right: 9%;    
+    padding:2px;  
+    font-size: 16px;
+    border: solid 1px #000;
+    background-color: rgb(255,224,23);
+    z-index: 9;
+}
+.login-no > div {
+    font-size: 14px;
+    padding: 3px 8px 1.5px 8px;
+    border-color:#000;
+    color: #000;
+}
+*/
+  /* .login-no {
+    position: absolute;
+    top: 5%;
+    right: 9%;  
+    font-size: 16px;
+    z-index: 9;
+} */
+  /* .readprogramPage .collectionBook{
+   width: 24%;
+   height: 200%;
+   top: 31%
+} */
+  /* .readprogramyayPage .sec .makePlan dl{
+    margin: 0 auto;
+	width: 30%;
+	height: 95%;
+	position: relative;
+}
+.readprogramyayPage .sec .makePlan dl dt{
+   width: 100%;
+   height: 100%;
+   background: url('../images/pad/usaPlan.png') no-repeat;
+   background-size: 100% 100%;
+}
+.readprogramyayPage .sec .makePlan dl dt.usa{
+   background-image: url('../images/pad/usaBuy.png');
+}
+.readprogramyayPage .sec .makePlan dl dt.gem{
+   background-image: url('../images/pad/gemBuy.png');
+}
+.readprogramyayPage .sec .makePlan dl dt.uk{
+   background-image: url('../images/pad/ukBuy.png');
+}
+.readprogramyayPage .sec .makePlan dl dd{
+	position: absolute;
+	top: -1%;
+    left: 1%;
+   width: 50%;
+   height: 15%;
+   background: url('../images/pad/price.png') no-repeat;
+   background-size: 100% 100%;
+   display: none;
+} */
+  /* .contrastPage .user_nav{
+  position: absolute;
+  top: 1%;
+  width: 22%;
+  height: 11%;
+  right: 2%;
+  z-index:10;
+} */
+  /* .readprogramPage .collectionBook{
+   width: 24%;
+   height: 200%;
+   top: 31%
+} */
+  /* .listenbookPage .user_nav{
+ position: absolute;
+  top: 1%;
+  width: 22%;
+  height: 11%;
+  right: 2%;
+  z-index:10;
+} */
+  /* .readprogramPage .collectionBook{
+   width: 24%;
+   height: 200%;
+   top: 31%
+} */
+  /* .questionPage .viewrap .goback{
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	width: 10%;
+	height: 10%;
+	background-image: url("../images/pad/goBack.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+} */
+  /* 1024*768 PC */
+  /* 1152*864 PC */
+  /* 1280*800 PC */
+  /* 1280*1024 PC */
+  /* 1280*960 pc */
+  /* 1280*768 and 1280*720 pc */
+  /* 1280*600 pc */
+  /* 1366*768 PC or 1360*768 PC*/
+  /* 1440*900 PC */
+  /* 1600*900 PC */
+  /* 1600*1024 PC */
+  /* 1680*1050 PC */
+  /* 1920*1080 PC */
+  /* 1920*1200 PC */
+  /* 2560*1080 PC */
+  /* 2560*1440 PC */
+  /* 2560*1600 PC */
+  /* 3840*2160 PC */
+  /* 2880*1800 PC or 2880x1620 PC */
+  /* 2880x1620 PC */
+  /* 3200*1800 PC */
+}
+@font-face {
+  font-family: "迷你简少儿";
+  src: url('../fonts/miniSCFont.eot');
+  src: url('../fonts/miniSCFont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/miniSCFont.woff') format('woff'), /* Modern Browsers */ url('../fonts/miniSCFont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/miniSCFont.svg#迷你简少儿') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+.pad .view {
+  background: url("../images/background.png"), url("../images/bootstrap.png"), no-repeat 0 0;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.pad .page {
+  overflow: hidden;
+}
+.pad .start1 {
+  position: absolute;
+  left: 2%;
+  top: 15%;
+  width: 2%;
+  height: 3.6%;
+  background-image: url('../images/pad/start1.png');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+.pad .start2 {
+  position: absolute;
+  left: 35.5%;
+  top: 10%;
+  width: 2%;
+  height: 3.6%;
+  background-image: url('../images/pad/start1.png');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  display: none;
+}
+.pad .start3 {
+  position: absolute;
+  left: 62.5%;
+  top: 13.5%;
+  width: 2%;
+  height: 3.6%;
+  background-image: url('../images/pad/start1.png');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  display: block;
+}
+.pad .start4 {
+  position: absolute;
+  left: 76%;
+  top: 3%;
+  width: 2%;
+  height: 3.6%;
+  background-image: url('../images/pad/start1.png');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+.pad .start5 {
+  position: absolute;
+  right: 2%;
+  top: 12%;
+  width: 2%;
+  height: 3.6%;
+  background-image: url('../images/pad/start1.png');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+.pad .grid {
+  /*min-height: 550px;
+    height: 680px; 
+    max-height: 720px;  */
+  /* margin: 78px 82px 0px 50px;
+    padding: 0px;
+    height: 70%;
+    border-style: solid;
+    border-width: 60px;
+    -moz-border-image: url("@{pad-image-path}/00.png") 105 round;
+    -webkit-border-image: url("@{pad-image-path}/00.png") 105 round;
+    -o-border-image: url("@{pad-image-path}/00.png") 105 round;
+    border-image: url("@{pad-image-path}/00.png") 105 round;
+    
+    -moz-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    -webkit-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    -o-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    border-image: url("@{pad-image-path}/00.png") 105 fill round; */
+  position: relative;
+  margin: 128px 68px 0px 60px;
+  padding: 0px;
+  height: 68%;
+  background: url("../images/pad/11.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  padding: 3.5% 2% 3%;
+}
+.pad .grid:before {
+  display: none;
+  /* position: absolute;
+    top: 0px;
+    z-index: -1;
+    display: block;
+    content: "";
+    border: 1px dashed #000;
+    width: 114%;
+    background-color: #e24c41;
+    margin-top: -5%;
+    margin-left: -8.5%;
+    height: 117%;
+    border-radius: 5%;
+    border-radius: 5%;
+    -webkit-transform-origin: 100% 30%;
+    -webkit-transform: rotate(-4deg) translate(-15px ,10px); */
+}
+.pad .grid:after {
+  display: none;
+  /* position: absolute;
+    top: 0px;
+    z-index: -2;
+    display: block;
+    content: "";
+    background-color: #e24c41;
+    width: 116%;
+    margin-top: -6%;
+    margin-left: -9.5%;
+    height: 120.5%;
+    border-radius: 5%;
+    border-radius: 5%;
+    -webkit-transform-origin: 100% 30%;
+    -webkit-transform: rotate(-4deg) translate(-15px ,10px);
+    -webkit-box-shadow: -8px 8px 15px 3px rgba(0,0,0,0.4); */
+}
+.pad .delete-switch {
+  position: absolute;
+  display: none;
+  width: 9%;
+  height: 20.2%;
+  left: -6%;
+  z-index: 99;
+  top: -6%;
+  background-size: contain;
+  cursor: pointer;
+}
+.pad .delete-switch > .scissor {
+  background: url("../images/sprite/scissor/scissor.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 500%;
+}
+.pad .h-container {
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transform: translateZ(0px);
+}
+.pad .row {
+  margin: 0px;
+  padding: 16px 0px 0px;
+}
+.pad .row img {
+  border: 1px dotted #d9d9d9;
+  padding: 2px;
+  width: 100%;
+  max-width: 390px;
+  height: 164px;
+  max-height: 390px;
+}
+.pad .equalheight {
+  overflow: hidden;
+}
+.pad .equalheight > div {
+  height: 100%;
+  text-align: center;
+}
+.pad .banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75.2%;
+  height: 8%;
+  background: url('../images/pad/bannerIndex.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.pad .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8.85%;
+  max-height: 134px;
+  background: url('../images/pad/view-footer.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.pad .child-bookshop {
+  position: absolute;
+  top: 6.5%;
+  right: 0%;
+  width: 16.8%;
+  height: 30%;
+  background-image: url('../images/pad/child-bookshop.png');
+  background-position: right top;
+  z-index: 9;
+}
+.pad .stack-room {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 66%;
+  height: 24%;
+  background-image: url('../images/pad/stack-room.png');
+  background-position: center;
+}
+.pad .bookshop {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 55%;
+  height: 50%;
+  pointer-events: auto;
+}
+.pad .my-books {
+  position: absolute;
+  left: 1.5%;
+  bottom: 0;
+  width: 35%;
+  height: 23.7%;
+  z-index: 9;
+}
+.pad .image-girl {
+  position: absolute;
+  right: 1%;
+  bottom: 6.8%;
+  width: 12.89%;
+  height: 22.6%;
+  background-image: url('../images/pad/child-girl.png');
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.pad .image-boy {
+  position: absolute;
+  right: 12.5%;
+  bottom: 6.8%;
+  width: 8.59%;
+  height: 19.79%;
+  background-image: url('../images/pad/child-boy.png');
+  background-position: center bottom;
+  z-index: 19;
+}
+.pad .treasure-box {
+  position: absolute;
+  right: 21.5%;
+  bottom: 3%;
+  width: 8%;
+  height: 15.88%;
+}
+.pad .box-top {
+  margin: 0 auto;
+  width: 90%;
+  height: 78%;
+  background-image: url('../images/pad/box-top.png');
+  background-position: center;
+}
+.pad .box-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 39%;
+  background-image: url('../images/pad/box-title.png');
+  background-position: top;
+}
+.pad .blue-bird {
+  position: absolute;
+  top: -4%;
+  right: 8%;
+  width: 78%;
+  height: 20%;
+  z-index: 9;
+  -webkit-transform: translateZ(0px);
+}
+.pad .orange-bird {
+  position: absolute;
+  top: 3.8%;
+  right: 0.5%;
+  width: 6.05%;
+  height: 7.3%;
+}
+.pad .image-contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.pad .elem-cursor {
+  cursor: pointer;
+}
+.pad .book-del {
+  position: absolute;
+  right: 0%;
+  top: -6%;
+  width: 20%;
+  height: 20%;
+  background-image: url('../images/pad/del-btn1.png');
+  background-position: top right;
+  display: none;
+}
+.pad .book-download,
+.pad .book-new,
+.pad .book-recommend,
+.pad .book-free {
+  position: absolute;
+  background-position: top right;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.pad .book-new,
+.pad .book-recommend,
+.pad .book-free {
+  left: 0%;
+  top: -6%;
+  width: 20.5%;
+  height: 24%;
+  display: block;
+}
+.pad .book-free {
+  background-image: url('../images/free.png');
+}
+.pad .book-new {
+  background-image: url('../images/new.png');
+}
+.pad .book-recommend {
+  background-image: url('../images/recommend.png');
+}
+.pad .finish .book-download {
+  right: 2%;
+  bottom: 13%;
+  width: 16%;
+  height: 20%;
+}
+.pad .running .book-download,
+.pad .waiting .book-download,
+.pad .paused .book-download,
+.pad .finish .book-download {
+  display: block;
+}
+.pad .running .book-download,
+.pad .waiting .book-download,
+.pad .paused .book-download {
+  right: 6%;
+  bottom: 7%;
+  width: 20%;
+  height: 25%;
+}
+.pad .running .book-download {
+  background-image: url('../images/pause.png');
+}
+.pad .waiting .book-download {
+  background-image: url('../images/pause.png');
+}
+.pad .paused .book-download {
+  background-image: url('../images/continue.png');
+}
+.pad .finish .book-download {
+  background-image: url('../images/success.png');
+}
+.pad .row .placeholder {
+  height: 30px;
+  content: " ";
+  line-height: 100%;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+.pad .none-events {
+  pointer-events: none;
+}
+.pad .boy-head-top {
+  width: 100%;
+  height: 27%;
+}
+.pad .boy-mouth-top {
+  width: 100%;
+  height: 7%;
+}
+.pad .boy-eye {
+  width: 100%;
+  height: 6.6%;
+}
+.pad .boy-mouth {
+  width: 100%;
+  height: 4.5%;
+}
+.pad .girl-head-top {
+  width: 100%;
+  height: 20%;
+}
+.pad .girl-mouth-top {
+  width: 100%;
+  height: 2%;
+}
+.pad .girl-eye {
+  width: 100%;
+  height: 8%;
+}
+.pad .girl-mouth {
+  width: 100%;
+  height: 5.6%;
+}
+.pad .girl-braid {
+  position: absolute;
+  top: 23.2%;
+  width: 100%;
+  height: 34%;
+}
+.pad .dog-location {
+  position: relative;
+  margin-top: -3.5%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateZ(0px);
+}
+.pad .duku {
+  position: absolute;
+  top: 0;
+  left: 5.2%;
+  width: 14.5%;
+  height: 5%;
+  background-image: url('../images/lib-bg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  z-index: 13;
+}
+.pad .bookshop .duku {
+  left: 83%;
+}
+.pad .view-widget {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.pad .readingbook,
+.pad .collectionBook {
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  width: 20%;
+  height: 190%;
+  background-image: url('../images/pad/collectionbook.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .readingbook {
+  background-image: url('../images/pad/readingbook.png');
+}
+.pad .listenBook {
+  position: absolute;
+  top: 55%;
+  left: 28%;
+  width: 18%;
+  height: 190%;
+  background-image: url('../images/pad/listenbook.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .comparison {
+  position: absolute;
+  top: 43%;
+  left: 49%;
+  width: 22%;
+  height: 190%;
+  background-image: url('../images/pad/comparison.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .childBook {
+  position: absolute;
+  top: 0;
+  left: 73%;
+  width: 24%;
+  height: 210%;
+  background-image: url('../images/pad/childbook.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .homePage .user-info-p,
+.pad .homePage .login-no {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  background-image: url('../images/pad/btnBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  ackground-position: center center;
+  position: inherit;
+}
+.pad .homePage .user-tile {
+  margin: 0 auto;
+  width: 75%;
+  height: 100%;
+  background: none;
+  padding: 13px;
+}
+.pad .user_nav {
+  position: absolute;
+  top: 1%;
+  width: 22%;
+  height: 9%;
+  right: 2%;
+  z-index: 10;
+}
+.pad .homePage .login-info {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.pad .homePage .user-info-img {
+  margin: 8.5% auto;
+  width: 60%;
+  height: 75%;
+  background-image: url('../images/pad/user-login.png');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pad .homePage .user-payment {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/pad/user-payment.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .homePage .plane {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.5);
+}
+.pad .homePage .plane .planeAni {
+  position: absolute;
+  background-image: url("../images/sprite/plane/plane.png");
+  background-size: 100% 500%;
+  background-position: 0 0;
+  width: 30%;
+  height: 18%;
+  left: 35%;
+  top: 35%;
+}
+.pad .homePage .plane .word {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 60%;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "迷你简少儿";
+}
+.pad .c-back {
+  position: absolute;
+  left: 1.6%;
+  top: 3.8%;
+  width: 8.74%;
+  height: 5.98%;
+  background-image: url('../images/pad/bookshop-back.png');
+  background-position: top;
+  z-index: 9;
+}
+.pad .s-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8.85%;
+  max-height: 134px;
+  background: url('../images/pad/view-footer.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .giraffe {
+  position: absolute;
+  right: 0;
+  bottom: 0.5%;
+  width: 15.9%;
+  height: 40.2%;
+  z-index: 9;
+}
+.pad .main-outline {
+  position: absolute;
+  /*top: 18.5%;
+    left: 5.4%;*/
+  bottom: 0;
+  left: 0;
+  margin: 0 5%;
+  width: 89%;
+  height: 82%;
+  padding: 0 6.5%;
+  background-color: #f95555;
+  border: solid 0 #630e17;
+  border-left-width: 5px;
+  border-right-width: 5px;
+}
+.pad .s-main-blank {
+  width: 100%;
+  height: 9.5%;
+}
+.pad .s-main-list {
+  margin: 0 auto;
+  width: 94%;
+  height: 75%;
+  overflow: hidden;
+  -webkit-transform: translateZ(0px);
+  position: relative;
+  z-index: 1;
+  border: 4px solid #f95555;
+  border-radius: 10px;
+  background: #fff;
+}
+.pad .s-main-container {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  background-image: url('../images/pad/s-bg.png');
+  overflow: hidden;
+}
+.pad .cyclopedia {
+  position: absolute;
+  top: 36.8%;
+  left: 2.5%;
+  width: 12.7%;
+  height: 10.9%;
+  background-image: url('../images/pad/cyclopedia.png');
+  background-position: center;
+}
+.pad .brains {
+  position: absolute;
+  top: 49%;
+  left: 3.5%;
+  width: 11.5%;
+  height: 13%;
+  background-image: url('../images/pad/brains.png');
+  background-position: center;
+}
+.pad .arts {
+  position: absolute;
+  top: 63.4%;
+  left: 3.6%;
+  width: 12%;
+  height: 13.6%;
+  background-image: url('../images/pad/arts.png');
+  background-position: center;
+}
+.pad .recommend {
+  position: absolute;
+  top: 79%;
+  left: 3%;
+  width: 12%;
+  height: 11.2%;
+  background-image: url('../images/pad/recommend.png');
+  background-position: center;
+}
+.pad .s-main-1 {
+  width: 92%;
+  height: 16%;
+  margin: 0 auto;
+  background-size: 5% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: 10;
+  position: relative;
+}
+.pad .s-nav {
+  width: 16.6%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.pad .s-nav-1 {
+  background: url('../images/pad/s-nav-1.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-2 {
+  background: url('../images/pad/s-nav-2.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-3 {
+  background: url('../images/pad/s-nav-3.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-4 {
+  background: url('../images/pad/s-nav-4.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-5 {
+  background: url('../images/pad/s-nav-5.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-6 {
+  background: url('../images/pad/s-nav-6.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-8 {
+  background: url('../images/pad/s-nav-8.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .s-nav-7 {
+  background: url('../images/pad/s-nav-7.png') no-repeat;
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .active.s-nav-1 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-2 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-3 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-4 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-5 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-6 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-7 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .active.s-nav-8 {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .s-nav .mask {
+  width: 0%;
+  height: 4px;
+  background: url('../images/pad/s-nav-mask.png') no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -4px;
+  left: 0%;
+}
+.pad .active.s-nav .mask {
+  width: 100%;
+}
+.pad .activated.active.s-nav .mask {
+  -webkit-animation: fillToRight 0.5s!important;
+  -moz-animation: fillToRight 0.5s !important;
+  animation: fillToRight 0.5s !important;
+}
+.pad .bookshop-roof {
+  position: absolute;
+  width: 100%;
+  height: 26.5%;
+  background-image: url('../images/pad/s-roof.png');
+  background-size: 100% 100%;
+  z-index: 9;
+}
+.pad .bookshop-title {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  width: 23%;
+  height: 23%;
+  background-image: url('../images/pad/s-title-1.png');
+  background-size: 100% 100%;
+}
+.pad .bookshop-search {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/pad/s-title-2.png');
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .bookshop-search input {
+  position: absolute;
+  top: 22.2%;
+  left: 9%;
+  width: 74%;
+  height: 52%;
+  background: transparent;
+  border: none;
+  /*font-size: 1.8rem;*/
+}
+.pad .s-search-btn {
+  position: absolute;
+  top: 18%;
+  right: 4.5%;
+  width: 12%;
+  height: 60%;
+  background-image: url('../images/pad/search-btn.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.pad .bookshop-back {
+  position: absolute;
+  left: 2%;
+  top: 11%;
+  width: 6.8%;
+  height: 36%;
+  background-image: url('../images/pad/bookshop-back.png');
+  background-position: top;
+}
+.pad .arrow-up {
+  position: absolute;
+  left: 48%;
+  bottom: 0;
+  width: 0px;
+  height: 0px;
+  border-left: 9px solid transparent;
+  /* left arrow slant */
+  border-right: 9px solid transparent;
+  /* right arrow slant */
+  border-bottom: 6px solid #FFF;
+  /* bottom, add background color here */
+  font-size: 0px;
+  line-height: 0px;
+  display: none;
+}
+.pad .active .arrow-up {
+  display: block;
+}
+.pad .big-cate {
+  position: absolute;
+  top: 32%;
+  left: 2.8%;
+  width: 11.6%;
+  height: 61%;
+  /*font-size: 1.4rem;  */
+  z-index: 9;
+}
+.pad .big-age-cate {
+  position: absolute;
+  top: 32%;
+  left: 3.8%;
+  width: 8.6%;
+  height: 61%;
+}
+.pad .big-age-cate .age {
+  position: absolute;
+  width: 100%;
+  height: 14%;
+  z-index: 101;
+  background: url('../images/pad/age.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.pad .big-age-cate .cate-panle {
+  position: absolute;
+  z-index: 1000;
+  width: 200%;
+  height: 40%;
+  z-index: 100;
+  display: none;
+  z-index: 99999;
+}
+.pad .big-age-cate .age0 {
+  position: absolute;
+  width: 40%;
+  height: 25%;
+  left: 14%;
+  top: 50%;
+  background-image: url('../images/pad/age0.png');
+  background-size: 100% 100%;
+}
+.pad .big-age-cate .age4 {
+  position: absolute;
+  width: 40%;
+  height: 25%;
+  z-index: 1000;
+  left: 50%;
+  top: 30%;
+  background-image: url('../images/pad/age4.png');
+  background-size: 100% 100%;
+}
+.pad .big-age-cate .age7 {
+  position: absolute;
+  width: 40%;
+  height: 25%;
+  z-index: 1000;
+  left: 60%;
+  top: 0%;
+  background-image: url('../images/pad/age7.png');
+  background-size: 100% 100%;
+}
+.pad .big-cate > div {
+  background-position: center;
+  pointer-events: none;
+}
+.pad .big-cate .on {
+  pointer-events: auto;
+  width: 80%;
+  height: 70%;
+  font-family: "迷你简少儿";
+}
+.pad .big-cate > div:nth-child(1) {
+  width: 100%;
+  height: 18%;
+  background-image: url('../images/pad/cate-1.png');
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .big-cate > div:nth-child(2) {
+  position: absolute;
+  top: 19.4%;
+  left: 5%;
+  width: 90%;
+  height: 20%;
+  background-image: url('../images/pad/cate-2.png');
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .big-cate > div:nth-child(3) {
+  position: absolute;
+  top: 40%;
+  left: 1.5%;
+  width: 94%;
+  height: 22%;
+  background-image: url('../images/pad/cate-3.png');
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .big-cate > div:nth-child(4) {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  width: 93%;
+  height: 16%;
+  background-image: url('../images/pad/cate-4.png');
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .big-cate > div:nth-child(5) {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 93%;
+  height: 16.5%;
+  background-image: url('../images/pad/cate-5.png');
+  background-size: 100% 200%;
+  background-position: 0% 0%;
+}
+.pad .big-cate .active {
+  color: #FFF;
+}
+.pad .big-cate .active:nth-child(1) {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .big-cate .active:nth-child(2) {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .big-cate .active:nth-child(3) {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .big-cate .active:nth-child(4) {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .big-cate .active:nth-child(5) {
+  background-size: 100% 200%;
+  background-position: 0% 100%;
+}
+.pad .bookshop .cell {
+  position: relative;
+  text-align: center;
+}
+.pad .load-more {
+  display: none;
+  position: relative;
+  margin: 0 10px 2% 2%;
+  background-color: #f95555;
+  color: #eee;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "迷你简少儿";
+}
+.pad .load-more:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  content: " ";
+  border: 1px dotted #fff;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+}
+.pad .load-more:hover {
+  color: #fff;
+}
+.pad .l-v-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /* 水平居中*/
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-pack: center;
+  /* IE 10 */
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  /* IE 11+,Firefox 22+,Chrome 29+,Opera 12.1*/
+  /* 垂直居中 */
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-align: center;
+  /* IE 10 */
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+.pad .img-rounded {
+  border: 1px dashed #000;
+  padding: 2px;
+  width: 90%;
+}
+.pad .kite-box p {
+  line-height: 100%;
+  margin: 10px 0px;
+}
+.pad .kite--fill-a {
+  height: 50%;
+  border-bottom: 2px dotted #222;
+  margin-bottom: 10px;
+}
+.pad .kite--middle-top {
+  width: 90%;
+  height: 100%;
+}
+.pad .kite__item_left {
+  width: 40%;
+}
+.pad .kite__item_right {
+  width: 60%;
+}
+.pad .kite-box--in {
+  width: 70%;
+  height: 69%;
+}
+.pad .x-large__title {
+  font-size: 36px;
+  color: #E24C41;
+}
+.pad .x-media__title {
+  font-size: 27px;
+  color: #74360D;
+}
+.pad .kite-box .user-fund {
+  float: left;
+  width: 36%;
+  font-size: 16px;
+  height: 100%;
+  margin-left: 13%;
+}
+.pad .kite-box .user-fund-pay {
+  display: none;
+  float: left;
+  width: 26%;
+  font-size: 16px;
+  height: 100%;
+}
+.pad .kite-box .user-fund-pay img {
+  height: 100%;
+}
+.pad .kite-box .user-fund-status {
+  margin-left: 4%;
+  float: left;
+  width: 40%;
+  font-size: 16px;
+  height: 100%;
+}
+.pad .kite-box .user-fund-status img {
+  width: 100%;
+  height: 100%;
+}
+.pad .kite__item_content {
+  font-size: 24px;
+}
+.pad .kite-box--border {
+  border-image-width: 56px;
+}
+.pad .detailsview {
+  pointer-events: auto;
+}
+.pad .detailsview .kite__item_content {
+  max-height: 300px;
+  overflow-y: scroll;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: small;
+  width: 100%;
+}
+.pad .bar-green-bg .user-fund-l {
+  background-image: url('../images/login/green-fund-l.png');
+}
+.pad .bar-green-bg .user-fund-r {
+  background-image: url('../images/login/green-fund-r.png');
+}
+.pad .bar-green-bg .user-fund-m {
+  background-image: url('../images/login/green-fund-m.png');
+}
+.pad .bookshop .mybook {
+  background-image: url('../images/pad/mybook.png');
+  background-size: 100% 100%;
+  position: absolute;
+  right: 4%;
+  top: 22%;
+  width: 11%;
+  height: 11.98%;
+  z-index: 2;
+  cursor: pointer;
+}
+.pad .detailsview .kite-box--buy {
+  position: absolute;
+  left: 23.5%;
+  top: 34%;
+  display: none;
+  width: 54%;
+  height: 32%;
+  background-image: url('../images/pad/detail_buy_bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 999999;
+}
+.pad .detailsview .kite-box--buy--close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  background-image: url("../images/detail-buy-close.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pad .detailsview .kite-box--buy .buy--content {
+  width: 100%;
+  height: 120%;
+  position: relative;
+  top: -10%;
+}
+.pad .detailsview .kite-box--buy .title {
+  width: 90%;
+  height: 25%;
+  margin: auto;
+  background-image: url('../images/pad/detail_buy_title.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .detailsview .kite-box--buy .card {
+  margin: auto;
+  width: 75%;
+  height: 50%;
+  position: relative;
+  top: -1.5%;
+}
+.pad .detailsview .kite-box--buy .card .one {
+  width: 33%;
+  height: 100%;
+  background-image: url('../images/pad/detail_buy_one.png');
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  background-position: center center;
+}
+.pad .detailsview .kite-box--buy .card .half {
+  width: 33%;
+  height: 100%;
+  background-image: url('../images/pad/detail_buy_half.png');
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  background-position: center center;
+}
+.pad .detailsview .kite-box--buy .card .buy {
+  width: 33%;
+  height: 100%;
+  background-image: url('../images/pad/detail_buy_book.png');
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  background-position: center center;
+}
+.pad .detailsview .kite-box--buy .card .buy .price {
+  position: relative;
+  left: 25%;
+  top: 67%;
+  font-size: 1.2rem;
+  font-family: '宋体';
+  font-weight: bold;
+  color: #FF3332;
+}
+.pad .detailsview .kite-box--buy .line {
+  margin: auto;
+  width: 84%;
+  height: 5%;
+  background-image: url('../images/pad/detail_buy_line.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: -4%;
+}
+.pad .detailsview .kite-box--buy .buys {
+  margin: auto;
+  width: 75%;
+  height: 15%;
+}
+.pad .detailsview .kite-box--buy .buys div {
+  height: 100%;
+  float: left;
+  width: 33.33%;
+  background-image: url('../images/pad/shop_detail_buy.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 80%;
+}
+.pad .detailsview .toolbar__recharge {
+  height: 3rem;
+}
+.pad .bookshop .childBook {
+  background-image: url('../images/pad/reading_bookshop.png');
+}
+.pad .bookshop .collectionBook {
+  background-image: url('../images/pad/collectionbook.png');
+}
+.pad .bookshop .childbookstore {
+  width: 7%;
+  height: 40%;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  background-image: url('../images/pad/store.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.pad .classBackground {
+  position: absolute;
+  background-image: url('../images/pad/bookshopbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 90%;
+  height: 90%;
+  display: none;
+  left: 5%;
+}
+.pad .userinfoview .kite-box--in {
+  width: 40%;
+}
+.pad .button-style {
+  position: relative;
+  padding: 3px 15px;
+  font-family: '迷你简少儿';
+  text-align: center;
+  border-radius: 4em;
+  border: solid 1px #5e463b;
+  /* default */
+  background-color: #ffde17;
+}
+.pad .button-style:after {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4em;
+  /* default */
+  border: 1px dashed #866c32;
+  content: "";
+}
+.pad .button-style-red {
+  padding: 3px 30px;
+  font-size: 1.8em;
+  color: #FFF;
+  border-color: red;
+  background-color: #fd2147;
+}
+.pad .button-style-red:after {
+  border-color: #FFF;
+}
+.pad .login-shadow {
+  -webkit-box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.3);
+  -shadow: -2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.pad .login {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  width: 34%;
+  height: 41.5%;
+  background-color: #ffc742;
+  border: solid 3px #491800;
+  border-radius: 18px;
+}
+.pad .login-top-title {
+  /* 525*188*/
+  position: absolute;
+  top: -50.5%;
+  left: -34%;
+  width: 153%;
+  height: 64%;
+  background-image: url(../images/login/login-top-title.png);
+  background-position: center;
+}
+.pad .login-left-bear {
+  /*157*184*/
+  position: absolute;
+  bottom: 11%;
+  left: -41%;
+  width: 46%;
+  height: 62.7%;
+  background-image: url(../images/login/login-left-bear.png);
+}
+.pad .login-right-deer {
+  /* 592*442 */
+  position: absolute;
+  top: -11%;
+  right: -48%;
+  width: 94%;
+  height: 84%;
+  background-image: url(../images/login/login-right-deer.png);
+  background-position: right;
+  z-index: -1;
+}
+.pad .login-bottom-cloud {
+  /*205*144*/
+  position: absolute;
+  bottom: -40%;
+  left: -24%;
+  width: 145%;
+  height: 84.5%;
+  background-image: url(../images/login/login-bottom-cloud.png);
+  background-position: left bottom;
+  z-index: -1;
+}
+.pad .login-right-cloud {
+  /*205*144*/
+  position: absolute;
+  bottom: -22%;
+  right: -36%;
+  width: 60%;
+  height: 48%;
+  background-image: url(../images/login/login-right-cloud.png);
+}
+.pad .login .btn-area {
+  width: 118px;
+}
+.pad .login-jump {
+  float: left;
+}
+.pad .login-close {
+  float: left;
+  margin-left: 10px;
+}
+.pad .bottom-btn {
+  position: absolute;
+  bottom: 24%;
+  left: 15%;
+}
+.pad .login-a {
+  /*position: absolute;*/
+  margin-left: 2.6%;
+  top: 0;
+  width: 94.8%;
+  height: 96%;
+  background-color: #FFF;
+  border-radius: 16px;
+}
+.pad .login-b {
+  /*position: absolute;*/
+  margin-left: 1%;
+  top: 0;
+  width: 98%;
+  height: 100%;
+  background-color: #ffe878;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.pad .login-c {
+  margin: 0 auto;
+  margin-top: 20%;
+  width: 78%;
+  height: 60%;
+}
+.pad .homePage .login-c {
+  margin-top: 28%;
+}
+.pad .login-input {
+  margin: 22px 0;
+  padding: 7px 6px;
+  border: solid 1.8px #000;
+  border-radius: 6px;
+  box-shadow: inset 0px 1px 1px #000;
+  font-size: 16px;
+  font-family: '幼圆', '黑体';
+  background-color: #FFF;
+  /* background: -moz-linear-gradient(10deg, #dd919f, #e292af, #c97e97);
+    background: -webkit-linear-gradient(10deg, #dd919f, #e292af, #c97e97);
+    background: -o-linear-gradient(10deg, #dd919f, #e292af, #c97e97);*/
+  overflow: hidden;
+}
+.pad .login-username,
+.pad .login-password,
+.pad .register-email,
+.pad .login-password2 {
+  padding: 0 0 0 30px;
+  background-position: left;
+}
+.pad .login-username,
+.pad .register-email {
+  background-image: url('../images/login/username.png');
+}
+.pad .login-password,
+.pad .login-password2 {
+  background-image: url('../images/login/password.png');
+}
+.pad .login input {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.pad .find-password {
+  float: right;
+  margin-top: -14px;
+  margin-bottom: 7%;
+  min-width: 24%;
+  text-align: right;
+  text-decoration: underline;
+  color: #703a1d;
+  font-size: 18px;
+  font-family: '幼圆', '黑体';
+}
+.pad .user-guest {
+  float: left;
+  margin-top: -14px;
+  margin-bottom: 7%;
+  min-width: 24%;
+  text-align: right;
+  text-decoration: underline;
+  color: #703a1d;
+  font-size: 18px;
+  font-family: '幼圆', '黑体';
+  font-weight: 700;
+}
+.pad .login-other {
+  clear: both;
+  overflow: hidden;
+  font-size: 18px;
+  color: #703a1d;
+  font-family: '幼圆', '黑体';
+  line-height: 180%;
+}
+.pad .login-weibo {
+  float: left;
+  padding: 0 0 0 36px;
+  text-decoration: underline;
+  background-image: url('../images/login/weibo.png');
+}
+.pad .login-qq {
+  float: left;
+  margin-left: 10px;
+  padding: 0 0 0 32px;
+  text-decoration: underline;
+  background-image: url('../images/login/qq.png');
+}
+.pad .login-button {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.pad .register-page,
+.pad .find-password-page {
+  display: none;
+}
+.pad .register-prompt {
+  width: 90%;
+  font-family: '幼圆', '黑体';
+  color: #703a1d;
+  font-size: 16px;
+}
+.pad .homePage .register-page-input {
+  margin-top: 17%;
+}
+.pad .register-page-input .login-input {
+  margin: 12px 0;
+}
+.pad .homePage .pop-mask {
+  position: absolute;
+  z-index: 999;
+}
+.pad .find-password-bg {
+  margin-top: 30%;
+  width: 100%;
+  height: 36px;
+  background-image: url('../images/login/find-password-bg.png');
+  background-position: center;
+}
+.pad .find-password-page .login-input {
+  margin: 10px 0;
+}
+.pad .btn-tra-bg {
+  position: absolute;
+  width: 118%;
+  height: 62px;
+  left: -10%;
+}
+.pad .kite-box .row {
+  margin: 0px;
+  padding: 0px 0px 0px;
+  height: 100%;
+}
+.pad .kite-box .row > div {
+  height: 100%;
+  padding: 0px;
+}
+.pad .kite-box .kite__item--header {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+}
+.pad .kite-box .kite--explain {
+  background-image: url("../images/explain.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+}
+.pad .kite-box .kite__item--header .row > div {
+  text-align: center;
+  width: 100%;
+  padding-top: 0px;
+  /*  -webkit-box-align: flex-end;
+ -moz-box-align: flex-end;
+ -ms-flex-align: flex-end;
+ -webkit-align-items: flex-end;
+ align-items: flex-end;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex; */
+  font-size: 20px;
+}
+.pad .kite-box .info-tip {
+  font-weight: bold;
+}
+.pad .kite-box .info-tip > span {
+  color: #f60;
+  font-size: 18px;
+  font-weight: bold;
+}
+.pad .kite-box .next_hide {
+  font-family: "迷你简少儿";
+}
+.pad .kite-box .progress-bar {
+  width: 60%;
+  display: block;
+  margin-top: 3px;
+  border: 1px solid #eb611f;
+  background-color: #824e23;
+  margin-top: 5%;
+}
+.pad .payview .s-progress {
+  color: #fff;
+}
+.pad .kite-box .progress-bar .completion {
+  background: #eb611f;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe53f), to(#f39800));
+  background: -moz-linear-gradient(top, #ffe53f, #f39800);
+  text-indent: 0;
+}
+.pad .kite-box .kite--grade {
+  background-image: url("../images/grade_title.png");
+}
+.pad .kite-box .info-level {
+  background-image: url("../images/vip.png");
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
+  background-size: 70% 65%;
+  text-indent: 1.6em;
+  display: inline-block;
+  color: #f60;
+  font-size: 1.5em;
+}
+.pad .kite-box .nextlevel {
+  background-image: url("../images/crystal.png");
+  background-repeat: no-repeat;
+  background-size: 20% 90%;
+  background-position: left 70%;
+  text-indent: 2em;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+.pad .kite-box .btn-back,
+.pad .kite-box .btn-payment {
+  width: 40%;
+  margin: 0px;
+  margin-right: 3%;
+  background-color: #eb6100;
+}
+.pad .payview .kite {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+}
+.pad .payview .col-md-3 {
+  width: 25%;
+  float: left;
+}
+.pad .payview .col-md-5 {
+  width: 41%;
+  float: left;
+}
+.pad .payview .col-md-4 {
+  width: 33%;
+  float: left;
+}
+.pad .payview .kite__item--border {
+  font-weight: bold;
+  margin: 24px 0px;
+}
+.pad .payview .kite-box--theme_pay {
+  width: 80%;
+  height: 85%;
+}
+.pad .kite__item {
+  padding: 1% 2%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.pad .payview .kite-box p {
+  font-family: 迷你简少儿;
+  font-weight: normal;
+  line-height: 100%;
+}
+.pad .payview .kite__item--info {
+  width: 66%;
+}
+.pad .payview .kite-box p span {
+  font-size: 1rem;
+}
+.pad .payview .kite__item {
+  font-size: 1.5rem;
+}
+.pad .payview .pay {
+  display: inline-block;
+  width: 7%;
+  height: 100%;
+  background-image: url("../images/crystal.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: top;
+}
+.pad .payview .payNub {
+  font-family: "迷你简少儿";
+  padding-left: 10%;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+.pad .payview .kite__item .kite__item--dollar {
+  width: 15%;
+  font-family: 迷你简少儿;
+  font-weight: normal;
+}
+.pad .payview .payNub span {
+  padding: 0 5%;
+  display: none;
+}
+.pad .userinfoview .kite-box--in {
+  width: 40%;
+}
+.pad .userinfoview .kite--close {
+  z-index: 99;
+  right: -15px;
+  top: 10px;
+  display: none;
+}
+.pad .userinfoview .kite-box {
+  z-index: 99999;
+}
+.pad .friendinfoview .info-level,
+.pad .userinfoview .info-level {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+}
+.pad .friendinfoview .user-tile > div {
+  background-image: none;
+}
+.pad .friendinfoview .user-avatar {
+  position: relative;
+  height: 25%;
+}
+.pad .friendinfoview .header-avatar {
+  position: absolute;
+  left: 27%;
+  top: 10%;
+  width: 45%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-image: url('../images/avatar_02.png');
+}
+.pad .friendinfoview .avatar {
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+.pad .friendinfoview .user-info {
+  margin-top: 0px;
+  border: solid 3px #fff;
+}
+.pad .friendinfoview .user-info-content {
+  margin-bottom: 5%;
+}
+.pad .userinfoview .user-account-name {
+  color: #f00;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pad .userinfoview .user-save .btn-save {
+  margin: 10px 20px;
+  background-color: #E5870A;
+}
+.pad .userinfoview .user-save .btn-exit {
+  margin: 10px 20px;
+  background-color: #E5870A;
+}
+.pad .userinfoview .user-save p {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  /*color: #f00;*/
+}
+.pad .userinfoview .display-avatar {
+  position: absolute;
+  width: 120%;
+  right: -10%;
+  height: 20%;
+  /*height: auto;*/
+  top: 20%;
+  z-index: 99;
+}
+.pad .userinfoview .user-info-one input[type="text"] {
+  width: 75%;
+}
+.pad .userinfoview .radio-inline label,
+.pad .userinfoview .radio-inline label {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  font-weight: 0;
+}
+.pad .userinfoview .sex-man > label {
+  background: url('../images/sex-man.png') left center no-repeat;
+  background-size: 100% 100%;
+}
+.pad .userinfoview .sex-women > label {
+  background: url('../images/sex-women.png') left center no-repeat;
+  background-size: 100% 100%;
+}
+.pad .userinfoview input[type="radio"] {
+  width: 25px;
+  padding: 5px 0 4px 24px;
+  cursor: pointer;
+  float: none;
+  margin-left: 0px;
+}
+.pad .userinfoview .avatar {
+  /* selector for avatar class*/
+  background: #fff;
+  /* background */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #999;
+  /* border(width, type, color) */
+  border-radius: 50%;
+  /* border-radius is equal to 50 percent of a general width, actually 25 pixels, here and a circle was got(there is also with prefix - moz and - o) */
+  box-shadow: 0px 1px 1px 1px #bbbbbb /* across displacement, vertical displacement, smearing, increase and color */;
+}
+.pad .user-info-p .avatar img,
+.pad .show-user-info .avatar img {
+  /* selector for a picture which is "inside" the avatar class */
+  display: block;
+  /* a picture is being displayed as a block, by a width it will be equal to the parent(in the div) */
+  width: 100%;
+  /* width 100% */
+  height: 100%;
+  border: 0;
+  /* zero border */
+  margin: 0;
+  /* external margin is lacking */
+  border-radius: 100%;
+  /* read above */
+  margin: 0 auto;
+}
+.pad .userinfoview .avatar input {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.pad .userinfoview .display-avatar {
+  display: none;
+}
+.pad .userinfoview .icon_crystal {
+  display: inline-block;
+  width: 1em;
+  background-image: url("../images/crystal.png");
+  height: 1em;
+  background-size: 100% 100%;
+}
+.pad .userinfoview .user-info-p {
+  position: absolute;
+  top: 2.6%;
+  right: 1.2%;
+  width: 28.5%;
+  height: 0;
+  z-index: 9;
+  display: none;
+}
+.pad .userinfoview .user-tile {
+  background: none;
+  width: 16%;
+  margin: 0 auto;
+  height: 66px;
+}
+.pad .user-info {
+  position: relative;
+  margin-top: -28px;
+  padding: 3px;
+  width: 100%;
+  background-color: #ffde17;
+  z-index: -1;
+  overflow: hidden;
+  border: solid 1px #000;
+  border-radius: 10px;
+  display: none;
+}
+.pad .user-info > div {
+  border-radius: 10px;
+  border: dashed 1px;
+}
+.pad .user-tile {
+  padding: 7px;
+  /*     width: 80px;
+height: 66px;     
+background-image: url('../images/pad/btnBg.png');
+background-size: 100% 100%;  */
+}
+.pad .user-tile .avatar {
+  width: 100%;
+  height: 100%;
+  /*     background-image: url('../images/pad/user-tile.jpg'); */
+  background-size: 100% 100%;
+  border-radius: 100%;
+}
+.pad .userinfoview .user-tile-yun-top {
+  position: absolute;
+  left: 40%;
+  width: 10%;
+  height: 5%;
+  background-image: url('../images/login/user-yun-top.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: 0%;
+}
+.pad .user-tile-yun-bt {
+  position: absolute;
+  left: 50%;
+  width: 15%;
+  height: 65%;
+  background-image: url('../images/login/user-yun-bt.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: 15%;
+}
+.pad .user-info-content {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 16px;
+}
+.pad .user-tile-bg {
+  margin-top: -4px;
+  width: 100%;
+  height: 48px;
+  /* background-image: url('../images/login/user-tile-bg.png');*/
+  background-position: top;
+}
+.pad .user-info-one {
+  padding: 12px 8px;
+  margin-bottom: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+  background-image: url('../images/login/user-info-bg.png');
+  background-size: 10% 44%;
+}
+.pad .user-info-two {
+  padding: 12px 8px;
+  border: solid 1px;
+  border-radius: 10px;
+  background-image: url('../images/login/user-info-bg.png');
+  background-size: 10% 70%;
+}
+.pad .user-info-two div {
+  color: red;
+}
+.pad .user-fund .button-style {
+  float: right;
+  font-weight: bold;
+  padding: 3px 24px;
+  margin-top: 1%;
+}
+.pad .user-pay,
+.pad .user-info-close,
+.pad .user-exit {
+  font-size: 1.06em;
+}
+.pad .kite-box .user-exit {
+  width: 5%;
+  height: 5.5%;
+  position: absolute;
+  right: -3%;
+  top: 3%;
+  background-image: url('../images/user_close.png');
+  background-size: 100% 100%;
+}
+.pad .user-fund {
+  position: relative;
+  overflow: hidden;
+  padding: 9px;
+  /* background-image: url('../images/login/user-fund-bg.png');*/
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.pad .user-fund-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  background-image: url('../images/login/user-fund-l.png');
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.pad .user-fund-r {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 100%;
+  background-image: url('../images/login/user-fund-r.png');
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.pad .user-fund-m {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  right: 22px;
+  background-image: url('../images/login/user-fund-m.png');
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.pad .user-balance {
+  float: left;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding: 0 0 0 40px;
+  background-image: url('../images/login/user-gold.png');
+  background-position: left center;
+  line-height: 150%;
+  color: #FFF;
+  font-size: 1.2rem;
+  max-width: 54%;
+}
+.pad .user-account,
+.pad .user-level,
+.pad .user-info-two {
+  overflow: hidden;
+}
+.pad .user-account-text,
+.pad .user-level-text,
+.pad .user-books-text {
+  float: left;
+  font-family: '迷你简少儿';
+  line-height: 176%;
+}
+.pad .user-account-content,
+.pad .user-level-content,
+.pad .user-books-content {
+  float: left;
+  font-family: '幼圆', '黑体';
+  line-height: 176%;
+}
+.pad .user-info-close {
+  float: left;
+  margin-top: 8px;
+  padding: 4px 24px;
+  display: none;
+}
+.pad .user-exit {
+  float: right;
+  margin-top: 8px;
+  padding: 4px 15px;
+  display: none;
+}
+.pad .user-info-p .btn-area {
+  background-color: #ffde17;
+}
+.pad .user-info-p .btn-area > div {
+  color: #000;
+  font-size: 18px;
+  border-color: #000;
+  padding: 4px 12px 2.5px 12px;
+}
+.pad .user-info {
+  -webkit-box-shadow: -3px 8px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -3px 8px 1px rgba(0, 0, 0, 0.4);
+  -shadow: -3px 8px 1px rgba(0, 0, 0, 0.4);
+}
+.pad .user-info-p .user-pay > div,
+.pad .user-info-p .user-info-close > div {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.pad .show-user-info .user-info,
+.pad .show-user-info .user-info-close,
+.pad .show-user-info .user-exit {
+  display: block;
+}
+.pad .user-account-content {
+  margin: 0 0 0 80px
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.pad .userinfoview .kite-box .row .col-md-1 {
+  width: 0%;
+  float: left;
+}
+.pad .userinfoview .kite-box .row .col-md-2 {
+  width: 20%;
+  float: left;
+}
+.pad .clearfix:after {
+  display: inline-block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.pad .clearfix {
+  zoom: 1;
+}
+.pad .setreadprogramPage {
+  position: absolute;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+}
+.pad .setreadprogramPage .temp {
+  width: 100%;
+  height: 100%;
+  z-index: 99998;
+}
+.pad .setreadprogramPage .first {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  height: 25%;
+  top: 37%;
+  display: block;
+}
+.pad .setreadprogramPage .first .exp {
+  width: 100%;
+  height: 50%;
+  background: url('../images/pad/pro_exp.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .first .setpro {
+  width: 100%;
+  height: 54%;
+  background: url('../images/pad/pro_setpro.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .sec {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 85%;
+  top: 10%;
+  background: url('../images/pad/planBg.png') no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .setreadprogramPage .sec .readTitle {
+  margin: -3% auto 0;
+  width: 50%;
+  height: 20%;
+  background: url('../images/pad/readPlan.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .sec .dots {
+  margin: 2% auto;
+  width: 70%;
+  height: 1%;
+  border-top: 1px dotted #666;
+}
+.pad .setreadprogramPage .sec .makePlan {
+  margin: 1% auto;
+  width: 70%;
+  height: 50%;
+}
+.pad .setreadprogramPage .sec .makePlan dl {
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: 2.5%;
+}
+.pad .setreadprogramPage .sec .makePlan dl dt {
+  width: 100%;
+  height: 80%;
+  background: url('../images/pad/usaPlan.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.pad .setreadprogramPage .sec .makePlan dl dt.usa {
+  background-image: url('../images/pad/usaPlan.png');
+}
+.pad .setreadprogramPage .sec .makePlan dl dt.gem {
+  background-image: url('../images/pad/gemPlan.png');
+}
+.pad .setreadprogramPage .sec .makePlan dl dt.uk {
+  background-image: url('../images/pad/ukPlan.png');
+}
+.pad .setreadprogramPage .sec .makePlan dl dd {
+  width: 80%;
+  height: 18%;
+  margin: 9% auto 0;
+  background: url('../images/pad/detail.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .sec .confirm {
+  margin: 1% auto;
+  width: 15%;
+  height: 12%;
+  background: url('../images/pad/confirm.png') no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .setreadprogramPage .thr {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 50%;
+  top: 35%;
+  display: none;
+}
+.pad .setreadprogramPage .thr .tip {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.pad .setreadprogramPage .thr .chooseAge {
+  width: 100%;
+  height: 30%;
+  margin-top: 10%;
+}
+.pad .setreadprogramPage .thr .chooseAge .sixBelow {
+  float: left;
+  width: 30%;
+  height: 70%;
+  background: url('../images/pad/six.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .thr .chooseAge .sixabove {
+  float: right;
+  width: 30%;
+  height: 70%;
+  background: url('../images/pad/seven.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .thr .chooseAge .sixBelow.active {
+  background-image: url('../images/pad/sixSel.png');
+}
+.pad .setreadprogramPage .thr .chooseAge .sixabove.active {
+  background-image: url('../images/pad/sevenSel.png');
+}
+.pad .setreadprogramPage .four {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 50%;
+  top: 35%;
+  display: none;
+}
+.pad .setreadprogramPage .four .suscess {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.pad .setreadprogramPage .four .suscess strong {
+  font-size: 2.4rem;
+}
+.pad .setreadprogramPage .four .readingNow {
+  margin: 10% auto;
+  width: 35%;
+  height: 20%;
+  background: url('../images/pad/readingNow.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .five {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 25%;
+  top: 27%;
+  display: none;
+}
+.pad .setreadprogramPage .five .suscess {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "迷你简少儿";
+}
+.pad .setreadprogramPage .five .setreadplan {
+  margin: 4% auto 0;
+  width: 70%;
+  height: 50%;
+  background: url('../images/pad/pro_setpro.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .five .bookrefresh {
+  margin: 5% auto;
+  width: 35%;
+  height: 80%;
+  background: url('../images/pad/set_planref.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .setreadprogramPage .details {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+  z-index: 5;
+  text-indent: 2em;
+  word-break: break-all;
+  display: none;
+}
+.pad .setreadprogramPage .cover {
+  position: absolute;
+  left: 8%;
+  top: 4%;
+  width: 84%;
+  height: 71%;
+  z-index: 3;
+  background: url('../images/pad/detailsBg.png') no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .readprogramPage .user-info-p,
+.pad .readprogramPage .login-no {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-image: url('../images/pad/btnBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  ackground-position: center center;
+  position: inherit;
+}
+.pad .readprogramPage .banner {
+  background-image: url('../images/pad/bannerIndex.png');
+}
+.pad .readprogramPage .jerry {
+  position: absolute;
+  bottom: 0%;
+  left: 20.2%;
+  width: 24%;
+  height: 44%;
+  z-index: 999;
+}
+.pad .readprogramPage .dialog {
+  position: absolute;
+  top: 38%;
+  left: 42%;
+  width: 34%;
+  height: 28%;
+  z-index: 99999;
+  font-size: 1rem;
+  text-align: left;
+  background-image: url('../images/pad/dialog.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 7.4% 6% 0 6.3%;
+  font-family: "迷你简少儿";
+}
+.pad .readprogramPage .finished {
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1% 0 0;
+  font-size: 1.6rem;
+  font-family: "迷你简少儿";
+  background-image: url('../images/pad/renew.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .readprogramPage .unlockwodrd {
+  width: 60%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "迷你简少儿";
+}
+.pad .readprogramPage .unlock {
+  margin: 0.5% auto 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 55px;
+  background-image: url('../images/pad/unlock.png');
+}
+.pad .readprogramPage .user-tile {
+  margin: 0 auto;
+  width: 75%;
+  height: 100%;
+  background: none;
+  padding: 14px;
+}
+.pad .readprogramPage .login-info {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.pad .readprogramPage .user-info-img {
+  margin: 8.5% auto;
+  width: 60%;
+  height: 75%;
+  background-image: url('../images/pad/user-login.png');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pad .readprogramPage .user-payment {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/pad/user-payment.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .readprogramPage .todayReading {
+  margin: 3% auto 2%;
+  width: 50%;
+  height: 80px;
+  background: url("../images/pad/tRead.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramPage .grid {
+  position: relative;
+  margin: 128px 68px 0px 60px;
+  padding: 0px;
+  height: 68%;
+  background: url("../images/pad/11.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  padding: 2%;
+}
+.pad .readprogramPage .grid:before {
+  display: none;
+}
+.pad .readprogramPage .grid:after {
+  display: none;
+}
+.pad .readprogramPage .row .lock {
+  position: absolute;
+  width: 19%;
+  height: 25%;
+  right: 7.6%;
+  bottom: 15%;
+  background: url("../images/pad/lock.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramPage .row {
+  padding: 1% 0 0;
+}
+.pad .readprogramPage .h-container {
+  width: 100%;
+  height: 100%;
+  background: url("../images/pad/readingbg.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.pad .readprogramPage .balloon_yellow {
+  position: absolute;
+  left: 18%;
+  top: 20%;
+  width: 6%;
+  height: 11%;
+  background: url("../images/sprite/balloon/yellow.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .readprogramPage .balloon_green {
+  position: absolute;
+  right: 16%;
+  top: 20%;
+  width: 7%;
+  height: 10%;
+  background: url("../images/sprite/balloon/green.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .purchasePlan {
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/pad/background1.png');
+  background-repeat: repeat;
+  position: absolute;
+  z-index: 10;
+}
+.pad .clearfix:after {
+  display: inline-block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.pad .clearfix {
+  zoom: 1;
+}
+.pad .readprogramyayPage {
+  position: absolute;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+}
+.pad .readprogramyayPage .temp {
+  width: 100%;
+  height: 100%;
+  z-index: 99998;
+}
+.pad .readprogramyayPage .sec {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 85%;
+  top: 10%;
+  background: url('../images/pad/planBg.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramyayPage .sec .readTitle {
+  position: absolute;
+  top: -12%;
+  left: 25%;
+  width: 50%;
+  height: 23%;
+  background: url('../images/pad/purchaseplan.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramyayPage .sec .dots1,
+.pad .readprogramyayPage .sec .dots {
+  margin: 9% auto 1%;
+  width: 70%;
+  height: 1%;
+  border-top: 1px dashed #666;
+}
+.pad .readprogramyayPage .sec .dots1 {
+  margin: 0 auto;
+}
+.pad .readprogramyayPage .sec .makePlan {
+  margin: 2% auto;
+  width: 70%;
+  height: 55%;
+}
+.pad .readprogramyayPage .sec .deciede {
+  margin: 1% auto;
+  width: 30%;
+  height: 10%;
+}
+.pad .readprogramyayPage .sec .deciede .buy {
+  margin: 0 auto;
+  width: 40%;
+  height: 100%;
+  background: url('../images/pad/buy.png') no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .readprogramyayPage .sec .deciede .cancel {
+  float: right;
+  width: 40%;
+  height: 100%;
+  background: url('../images/pad/cancel.png') no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramyayPage .goBack {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 7%;
+  height: 7%;
+  background-image: url("../images/pad/goBack.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pad .readprogramyayPage .cloud2,
+.pad .readprogramyayPage .cloud1 {
+  width: 12%;
+  height: 10%;
+  position: absolute;
+  left: 2%;
+  top: 70%;
+  background-image: url("../images/pad/cld.png");
+  background-size: 100% 100%;
+  z-index: 99999;
+  display: none;
+}
+.pad .readprogramyayPage .cloud2 {
+  left: 84%;
+  top: 8%;
+}
+.pad .readprogramyayPage .fullYearCard,
+.pad .readprogramyayPage .halfYearCard {
+  width: 90%;
+  height: 90%;
+  background: url('../images/pad/halfyear.png') no-repeat;
+  background-size: 100% 100%;
+  margin: 5% auto;
+}
+.pad .readprogramyayPage .current {
+  float: left;
+  width: 40%;
+  margin-left: 6.5%;
+  height: 100%;
+  border-radius: 5%;
+}
+.pad .readprogramyayPage .current.active {
+  background: #fde7ea;
+  border: 1px #8d8384 dashed;
+}
+.pad .readprogramyayPage .fullYearCard {
+  background-image: url('../images/pad/fullyear.png');
+}
+.pad .contrastPage .user-info-p,
+.pad .contrastPage .login-no {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-image: url('../images/pad/btnBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  ackground-position: center center;
+  position: inherit;
+}
+.pad .contrastPage .banner {
+  background-image: url('../images/pad/bannerIndex.png');
+}
+.pad .contrastPage .user-tile {
+  margin: 0 auto;
+  width: 75%;
+  height: 100%;
+  background: none;
+  padding: 14px;
+}
+.pad .contrastPage .login-info {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.pad .contrastPage .user-info-img {
+  margin: 8.5% auto;
+  width: 60%;
+  height: 75%;
+  background-image: url('../images/pad/user-login.png');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pad .contrastPage .user-payment {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/pad/user-payment.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .contrastPage .grid {
+  position: relative;
+  margin: 128px 68px 0px 60px;
+  padding: 0px;
+  height: 68%;
+  background: url("../images/pad/11.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  padding: 2%;
+}
+.pad .contrastPage .grid:before {
+  display: none;
+}
+.pad .contrastPage .grid:after {
+  display: none;
+}
+.pad .contrastPage .h-container {
+  width: 100%;
+  height: 100%;
+  background: url("../images/pad/contrastbg.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.pad .contrastPage .num5,
+.pad .contrastPage .num4,
+.pad .contrastPage .num3,
+.pad .contrastPage .num2,
+.pad .contrastPage .num1 {
+  position: absolute;
+  width: 28%;
+  height: 33%;
+  bottom: 20%;
+  left: 20%;
+  overflow: hidden;
+  background-image: url("../images/pad/numone.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .contrastPage .num2 {
+  width: 23%;
+  height: 30%;
+  left: 56%;
+  bottom: 14%;
+  background-image: url("../images/pad/numtwo.png");
+}
+.pad .contrastPage .num3 {
+  width: 20%;
+  height: 30%;
+  left: 5%;
+  bottom: 55%;
+  background-image: url("../images/pad/numthree.png");
+}
+.pad .contrastPage .num4 {
+  width: 24%;
+  height: 30%;
+  left: 40%;
+  bottom: 66%;
+  background-image: url("../images/pad/numfour.png");
+}
+.pad .contrastPage .num5 {
+  width: 30%;
+  height: 48%;
+  left: 68%;
+  bottom: 40%;
+  background-image: url("../images/pad/numfive.png");
+}
+.pad .contrastPage .num5 .img,
+.pad .contrastPage .num4 .img,
+.pad .contrastPage .num3 .img,
+.pad .contrastPage .num2 .img,
+.pad .contrastPage .num1 .img {
+  position: absolute;
+  left: 37%;
+  top: 35%;
+  width: 24%;
+  height: 30%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .contrastPage .num1 .img img {
+  display: block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.pad .contrastPage .num2 .img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.pad .contrastPage .num3 .img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.pad .contrastPage .num1 .img {
+  left: 38.5%;
+  height: 34%;
+  top: 28%;
+}
+.pad .contrastPage .num2 .img {
+  top: 33%;
+  width: 23%;
+}
+.pad .contrastPage .num3 .img {
+  height: 28%;
+}
+.pad .contrastPage .num4 .img {
+  top: 30%;
+  left: 38%;
+  width: 22%;
+}
+.pad .contrastPage .num5 .img {
+  width: 25%;
+  height: 28%;
+}
+.pad .contrastPage .num4 .img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  top: 28%;
+  width: 100%;
+  height: 100%;
+}
+.pad .contrastPage .num5 .img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.pad .contrastPage .num5 .rank,
+.pad .contrastPage .num4 .rank,
+.pad .contrastPage .num3 .rank,
+.pad .contrastPage .num2 .rank,
+.pad .contrastPage .num1 .rank {
+  position: absolute;
+  left: 62.5%;
+  top: 12%;
+  width: 15%;
+  height: 15%;
+  font-size: 1.6rem;
+  font-family: "迷你简少儿";
+  color: #fff;
+  text-align: center;
+}
+.pad .contrastPage .num1 .rank {
+  left: 60%;
+  top: 4%;
+  font-size: 1.4rem;
+}
+.pad .contrastPage .num4 .rank,
+.pad .contrastPage .num3 .rank,
+.pad .contrastPage .num2 .rank {
+  left: 64%;
+  top: 12%;
+  width: 12%;
+  font-size: 1.2rem;
+}
+.pad .contrastPage .num3 .rank {
+  left: 61%;
+  top: 14%;
+}
+.pad .contrastPage .num4 .rank {
+  width: 12%;
+  left: 59%;
+  top: 11%;
+}
+.pad .contrastPage .num5 .rank {
+  position: absolute;
+  left: 57%;
+  top: 12%;
+}
+.pad .contrastPage .num5 .place,
+.pad .contrastPage .num4 .place,
+.pad .contrastPage .num3 .place,
+.pad .contrastPage .num2 .place,
+.pad .contrastPage .num1 .place {
+  position: absolute;
+  text-align: center;
+  left: 67%;
+  top: 52%;
+  width: 25%;
+  height: 15%;
+  font-size: 0.8rem;
+  font-family: "迷你简少儿";
+}
+.pad .contrastPage .num2 .place {
+  top: 50%;
+  left: 68%;
+}
+.pad .contrastPage .num3 .place {
+  top: 50%;
+  left: 65%;
+  font-size: 0.7rem;
+}
+.pad .contrastPage .num4 .place {
+  top: 47%;
+  left: 65%;
+}
+.pad .contrastPage .num5 .place {
+  top: 52%;
+  left: 68%;
+  font-size: 1rem;
+}
+.pad .contrastPage .num5 .nickname,
+.pad .contrastPage .num4 .nickname,
+.pad .contrastPage .num3 .nickname,
+.pad .contrastPage .num2 .nickname,
+.pad .contrastPage .num1 .nickname {
+  position: absolute;
+  text-align: center;
+  left: 33%;
+  top: 78%;
+  width: 25%;
+  height: 15%;
+  font-size: 0.8rem;
+  font-family: "迷你简少儿";
+}
+.pad .contrastPage .num2 .nickname {
+  top: 74%;
+  left: 30%;
+  font-size: 0.7rem;
+}
+.pad .contrastPage .num3 .nickname {
+  top: 74%;
+  left: 32%;
+  font-size: 0.7rem;
+}
+.pad .contrastPage .num4 .nickname {
+  top: 73%;
+  left: 31%;
+}
+.pad .contrastPage .num5 .nickname {
+  top: 72%;
+  left: 29%;
+  font-size: 1rem;
+}
+.pad .contrastPage .num5 .core,
+.pad .contrastPage .num4 .core,
+.pad .contrastPage .num3 .core,
+.pad .contrastPage .num2 .core,
+.pad .contrastPage .num1 .core {
+  position: absolute;
+  text-align: center;
+  left: 7%;
+  top: 37.5%;
+  width: 25%;
+  height: 15%;
+  font-size: 1rem;
+  font-family: "迷你简少儿";
+}
+.pad .contrastPage .num1 .core {
+  left: 9%;
+  top: 31%;
+}
+.pad .contrastPage .num4 .core,
+.pad .contrastPage .num3 .core,
+.pad .contrastPage .num2 .core {
+  left: 7%;
+  top: 31%;
+  font-size: 0.8rem;
+}
+.pad .contrastPage .num4 .core {
+  top: 28%;
+}
+.pad .contrastPage .num5 .core {
+  left: 9%;
+  top: 35%;
+  font-size: 1rem;
+}
+.pad .contrastPage .readingPlan {
+  position: absolute;
+  top: 45%;
+  left: 49%;
+  width: 22%;
+  height: 190%;
+  background-image: url('../images/pad/readingplan.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .contrastPage .flower-three {
+  position: relative;
+  top: 15%;
+}
+.pad .animation1 {
+  animation: bounceInUp 1s .5s ease both;
+  -webkit-animation: bounceInUp 1s .5s ease both;
+  -moz-animation: bounceInUp 1s .5s ease both;
+}
+.pad .animation2 {
+  animation: bounceInUp 1s 1s ease both;
+  -webkit-animation: bounceInUp 1s 1s ease both;
+  -moz-animation: bounceInUp 1s 1s ease both;
+}
+.pad .animation3 {
+  animation: bounceInUp 1s 1.5s ease both;
+  -webkit-animation: bounceInUp 1s 1.5s ease both;
+  -moz-animation: bounceInUp 1s 1.5s ease both;
+}
+.pad .animation4 {
+  animation: bounceInUp 1s 2s ease both;
+  -webkit-animation: bounceInUp 1s 2s ease both;
+  -moz-animation: bounceInUp 1s 2s ease both;
+}
+.pad .animation5 {
+  animation: bounceInUp 1s 2.5s ease both;
+  -webkit-animation: bounceInUp 1s 2.5s ease both;
+  -moz-animation: bounceInUp 1s 2.5s ease both;
+}
+@-webkit-keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+  }
+  60% {
+    opacity: .6;
+    -webkit-transform: translateY(-30px);
+  }
+  80% {
+    opacity: .8;
+    -webkit-transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(2000px);
+  }
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(-30px);
+  }
+  80% {
+    -moz-transform: translateY(10px);
+  }
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2000px);
+  }
+  60% {
+    opacity: .6;
+    transform: translateY(-30px);
+  }
+  80% {
+    opacity: .8;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.pad .listenbookPage .user-info-p,
+.pad .listenbookPage .login-no {
+  float: left;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-image: url('../images/pad/btnBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  ackground-position: center center;
+  position: inherit;
+}
+.pad .listenbookPage .banner {
+  background-image: url('../images/pad/bannerIndex.png');
+}
+.pad .listenbookPage .user-tile {
+  margin: 0 auto;
+  width: 75%;
+  height: 100%;
+  background: none;
+  padding: 14px;
+}
+.pad .listenbookPage .login-info {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.pad .listenbookPage .user-info-img {
+  margin: 8.5% auto;
+  width: 60%;
+  height: 75%;
+  background-image: url('../images/pad/user-login.png');
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pad .listenbookPage .user-payment {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/pad/user-payment.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .listenbookPage .todayReading {
+  position: absolute;
+  left: 45%;
+  top: 47%;
+  width: 13%;
+  height: 26%;
+  background: url("../images/pad/broadcastl.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pad .listenbookPage .todayReading.pause {
+  background-image: url('../images/pad/pausel.png');
+}
+.pad .listenbookPage .grid {
+  position: relative;
+  /*min-height: 550px;
+    height: 680px; 
+    max-height: 720px;  */
+  margin: 128px 68px 0px 60px;
+  padding: 0px;
+  height: 65%;
+  background: url("../images/pad/11.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  padding: 2%;
+}
+.pad .listenbookPage .grid:before {
+  display: none;
+}
+.pad .listenbookPage .grid:after {
+  display: none;
+}
+.pad .listenbookPage .row .lock {
+  position: absolute;
+  width: 26%;
+  height: 40%;
+  right: -1.6%;
+  bottom: 2%;
+  background: url("../images/pad/lock.png") no-repeat;
+  background-size: 100% 100%;
+}
+.pad .listenbookPage .row {
+  padding: 1% 0 0;
+}
+.pad .listenbookPage .containerbg {
+  width: 100%;
+  height: 100%;
+  background: url("../images/pad/listenbg.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.pad .listenbookPage .collection {
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  width: 20%;
+  height: 190%;
+  background-image: url('../images/pad/collectionbook.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .listenbookPage .readingbook {
+  position: absolute;
+  top: 55%;
+  left: 27%;
+  width: 20%;
+  height: 190%;
+  background-image: url('../images/pad/readinglisten.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pad .listenbookPage .balloon_yellow {
+  position: absolute;
+  left: 20%;
+  top: 26%;
+  width: 7%;
+  height: 11%;
+  background: url("../images/sprite/balloon/yellow.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .listenbookPage .balloon_green {
+  position: absolute;
+  right: 16%;
+  top: 25%;
+  width: 8%;
+  height: 10%;
+  background: url("../images/sprite/balloon/green.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .questionPage .viewrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url('../images/pad/background1.png');
+  background-repeat: repeat;
+}
+.pad .questionPage .viewrap .testCtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 95%;
+  background-image: url('../images/pad/conBgv.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.pad .questionPage .testCtn .testTitle {
+  margin: -3% auto 0;
+  width: 32%;
+  height: 16%;
+  background-image: url('../images/pad/test.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.pad .questionPage .testCtn .cloud2,
+.pad .questionPage .testCtn .cloud1 {
+  width: 10%;
+  height: 9%;
+  position: absolute;
+  left: 86%;
+  top: 24%;
+  background-image: url("../images/pad/cld.png");
+  background-size: 100% 100%;
+  z-index: 9;
+}
+.pad .questionPage .testCtn .cloud2 {
+  left: 3%;
+  top: 70%;
+}
+.pad .questionPage .testCtn .question {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  font-family: "迷你简少儿";
+  color: #653100;
+  text-align: center;
+  padding-bottom: 4%;
+  padding-top: 22%;
+}
+.pad .questionPage .testCtn .choices {
+  width: 100%;
+  padding: 0 10%;
+  height: 38%;
+  margin: 0% auto;
+  box-sizing: border-box;
+}
+.pad .questionPage .testCtn .choices .option {
+  width: 24%;
+  float: left;
+  height: 55%;
+  border-radius: 12%;
+  background-image: url("../images/pad/questionbg.png");
+  background-size: 100% 100%;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  margin-left: 7%;
+  text-align: center;
+  font-family: "微软雅黑";
+  overflow: hidden;
+}
+.pad .questionPage .testCtn .choices .option img {
+  width: 100%;
+  height: 100%;
+  padding: 1.5%;
+  border-radius: 12%;
+  box-sizing: border-box;
+}
+.pad .questionPage .testCtn .choices .option.first {
+  margin-left: 11%;
+}
+.pad .questionPage .testCtn .choices .option.current {
+  border-bottom: 10px solid #a03916;
+  background-color: #f85023;
+}
+.pad .questionPage .returnBack {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 9%;
+  height: 10%;
+  background-image: url("../images/pad/goBack.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.pad .questionPage .kite-box--out {
+  visibility: hidden;
+}
+.pad .questionPage .testCtn .choices:after {
+  display: inline-block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+.pad .questionPage .testCtn .choices {
+  zoom: 1;
+}
+.pad .questionPage .que_content {
+  width: 100%;
+  height: 100%;
+}
+.pad .questionPage .answerall {
+  position: absolute;
+  z-index: 999999;
+  width: 50%;
+  height: 65%;
+  background: url('../images/pad/alertbg.png') no-repeat;
+  background-size: 100% 100%;
+  left: 25%;
+  top: 12%;
+  display: block;
+}
+.pad .questionPage .checkAns {
+  position: absolute;
+  z-index: 999999;
+  width: 50%;
+  height: 60%;
+  background: url('../images/pad/congrat.png') no-repeat;
+  background-size: 100% 100%;
+  left: 25%;
+  top: 12%;
+  display: none;
+}
+.pad .questionPage .answerwrong {
+  position: absolute;
+  z-index: 999999;
+  width: 50%;
+  height: 65%;
+  background-size: 100% 100%;
+  left: 25%;
+  top: 10%;
+  background-image: url('../images/pad/answerwrong.png');
+  display: none;
+}
+.pad .questionPage .answerwrong .checkRes {
+  position: absolute;
+  width: 70%;
+  height: 10%;
+  left: 15%;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #000;
+  font-family: "迷你简少儿";
+  bottom: 37%;
+  padding-top: 2%;
+}
+.pad .questionPage .answerwrong .think {
+  position: absolute;
+  width: 26%;
+  height: 15%;
+  bottom: 16%;
+  background: url('../images/pad/thinkOk.png') no-repeat;
+  background-size: 100% 100%;
+  left: 37%;
+}
+.pad .questionPage .checkTitle {
+  width: 80%;
+  height: 20%;
+  margin: 10% auto 0;
+  position: relative;
+}
+.pad .questionPage .checkTitle .star1 {
+  position: absolute;
+  z-index: 9;
+  width: 13%;
+  height: 54%;
+  background: url('../images/pad/star1.png') no-repeat;
+  background-size: 100% 100%;
+  left: 43.5%;
+  top: 6%;
+}
+.pad .questionPage .checkTitle .star2 {
+  background-image: url('../images/pad/star2.png');
+  background-size: 100% 100%;
+  left: 59.5%;
+  top: 26%;
+  width: 12.5%;
+  height: 55%;
+  position: absolute;
+  z-index: 9;
+}
+.pad .questionPage .checkRes {
+  position: absolute;
+  width: 70%;
+  height: 10%;
+  bottom: 29%;
+  left: 15%;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #000;
+  font-family: "迷你简少儿";
+}
+.pad .questionPage .reword,
+.pad .questionPage .think,
+.pad .questionPage .next,
+.pad .questionPage .goBack {
+  position: absolute;
+  width: 26%;
+  height: 15%;
+  bottom: 11%;
+  background: url('../images/pad/return.png') no-repeat;
+  background-size: 100% 100%;
+  left: 37%;
+}
+.pad .questionPage .goBack {
+  bottom: 10.4%;
+}
+.pad .questionPage .next {
+  background-image: url('../images/pad/next.png');
+}
+.pad .questionPage .reward {
+  background-image: url('../images/pad/reward.png');
+}
+.pad .questionPage .balloon_yellow {
+  position: absolute;
+  left: 16.5%;
+  top: 24%;
+  width: 7%;
+  height: 11%;
+  background: url("../images/sprite/balloon/yellow.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .questionPage .balloon_green {
+  position: absolute;
+  right: 16%;
+  top: 22%;
+  width: 8%;
+  height: 10%;
+  background: url("../images/sprite/balloon/green.png") no-repeat;
+  background-size: 100% 200%;
+  background-position: 0 0;
+  z-index: 10;
+}
+.pad .contactPage .wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: url('../images/pad/background1.png');
+  background-repeat: repeat;
+}
+.pad .contactPage .wrap .goback {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/pad/goBack.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.pad .contactPage .wrap .contact {
+  margin: 11% auto 0;
+  width: 85%;
+  height: 75%;
+  background: #fcecd2;
+  border-radius: 2%;
+  position: relative;
+}
+.pad .contactPage .contact .contactTitle {
+  position: absolute;
+  left: 30%;
+  top: -10%;
+  width: 40%;
+  height: 20%;
+  background-image: url('../images/pad/contact.png');
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.pad .contactPage .contact .cloud2,
+.pad .contactPage .contact .cloud1 {
+  width: 12%;
+  height: 10%;
+  position: absolute;
+  left: -6%;
+  top: 100%;
+  background-image: url("../images/pad/cld.png");
+  background-size: 100% 100%;
+  z-index: 9;
+  display: none;
+}
+.pad .contactPage .contact .cloud2 {
+  left: 94%;
+  top: -10%;
+}
+.pad .contactPage .contactMap {
+  position: absolute;
+  left: 10%;
+  top: 13%;
+  width: 80%;
+  height: 45%;
+  background-image: url("../images/pad/map.jpg");
+  background-size: 100% 100%;
+  border: 1px solid #231816;
+}
+.pad .contactPage .contactCtn {
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  width: 90%;
+  height: 35%;
+  color: #231814;
+}
+.pad .contactPage .contactCtn .subtitle {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.pad .contactPage .contactCtn .ctnDetails {
+  width: 100%;
+  height: 100%;
+}
+.pad .contactPage .contactCtn .detailsLeft {
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+.pad .contactPage .contactCtn .detailsRight {
+  width: 50%;
+  text-align: left;
+  float: right;
+}
+.pad .contactPage .ctnDetails .list {
+  width: 100%;
+  font-size: 0.8rem;
+  word-break: break-all;
+  font-family: "微软雅黑";
+}
+.pad .contactPage .ctnDetails .list strong {
+  font-weight: bold;
+  font-size: 1rem;
+}
+@media all and (width: 819px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .banner {
+    height: 6%;
+  }
+  .pad .login-no {
+    width: 12%;
+    right: 7%;
+    font-size: 13px;
+  }
+  .pad .login-guest {
+    width: 12%;
+    right: 7%;
+    font-size: 13px;
+  }
+  .pad .delete-switch {
+    left: -10%;
+    top: -10%;
+    width: 12%;
+  }
+  .pad .grid {
+    height: 62%;
+  }
+  .pad .col-xs-4,
+  .pad .col-md-4 {
+    padding: 0 8px;
+  }
+  .pad .homePage .row {
+    padding-top: 29px;
+  }
+  .pad .row img {
+    height: 150px;
+  }
+  .pad .my-books {
+    height: 23%;
+  }
+  .pad .footer {
+    height: 7.5%;
+  }
+  .pad .image-boy {
+    height: 15.7%;
+  }
+  .pad .image-girl {
+    height: 18.6%;
+  }
+  .pad .big-cate {
+    height: 52%;
+  }
+  .pad .s-main-blank {
+    height: 10%;
+  }
+  .pad .s-main-list {
+    height: 77%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .grid:before {
+    height: 118%;
+  }
+  .pad .homePage .kite-box .kite__item--header .row > div {
+    font-size: 16px;
+  }
+  .pad .payview .kite__item {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  .pad .payview .payNub {
+    line-height: 170%;
+  }
+  .pad .user-balance {
+    font-size: 0.8rem;
+    padding: 0 0 0 30px;
+    margin-top: 0;
+  }
+  .pad .payview .kite-box p {
+    margin: 5px 0;
+  }
+  .pad .payview .kite__item--info {
+    width: 69%;
+  }
+  .pad .payview .kite-box p span {
+    font-size: 1rem;
+  }
+  .pad .homePage .login {
+    width: 39%;
+    height: 37.5%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 46%;
+  }
+  .pad .userinfoview .user-tile {
+    width: 56px;
+    height: 56px;
+  }
+  .pad .userinfoview .login {
+    height: 40.5%;
+  }
+  .pad .detailsview .x-large__title {
+    font-size: 30px;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 200px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.2rem;
+  }
+  .pad .dialog-content .cancel {
+    height: 17%;
+  }
+  .pad .dialog-content .ok {
+    height: 17%;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    left: 20%;
+    top: 64%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    padding-top: 5%;
+    height: 80%;
+  }
+  .pad .bookshop .s-main-1 {
+    height: 14%;
+  }
+  .pad .metro-confirm-ctn {
+    font-size: 1.2rem;
+  }
+  .pad .contrastPage .rank .rankCtn li span {
+    font-size: 1rem;
+  }
+  .pad .contrastPage .rank .rankCtn li span strong {
+    top: -18%;
+    width: 20%;
+    height: 100%;
+  }
+  .pad .contrastPage .rank .myRank span {
+    font-size: 1.2rem;
+  }
+  .pad .contrastPage .rank .myRank span strong.num {
+    width: 25%;
+    height: 60%;
+  }
+  .pad .readprogramPage .dialog {
+    width: 32%;
+    padding: 9% 0 0 6.5%;
+    font-size: 1rem;
+  }
+  .pad .setreadprogramPage .sec .makePlan {
+    width: 80%;
+  }
+  .pad .contactPage .wrap .contact {
+    width: 92%;
+    margin: 15% auto 0;
+    height: 80%;
+  }
+  .pad .contactPage .contactCtn .detailsRight {
+    width: 53%;
+  }
+  .pad .contactPage .contactCtn .detailsLeft {
+    width: 45%;
+  }
+  .pad .contactPage .wrap .goback {
+    height: 8%;
+  }
+  .pad .questionPage .checkAns {
+    height: 48%;
+  }
+  .pad .questionPage .answerall {
+    height: 50%;
+  }
+  .pad .questionPage .answerwrong {
+    height: 55%;
+  }
+  .pad .questionPage .testCtn .choices {
+    height: 33%;
+  }
+  .pad .setreadprogramPage .details {
+    top: 6%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 22%;
+    bottom: 20%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    height: 80%;
+    top: 10%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 32%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 30%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 25%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 32%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 33%;
+    height: 42%;
+    left: 65.5%;
+  }
+  .pad .start4 {
+    left: 74%;
+  }
+}
+@media all and (width: 922px) and (height: 864px) and (orientation: landscape) {
+  .pad {
+    /*pay*/
+    /* userinfo */
+    /*     .contrastPage .rank .myRank span strong.num{
+    width: 25%;
+    height: 60%
+} */
+  }
+  .pad .banner {
+    height: 6%;
+  }
+  .pad .col-xs-4,
+  .pad .col-md-4 {
+    padding: 0 10px;
+  }
+  .pad .h-container {
+    width: 94%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .dog-location {
+    margin-top: -3.5%;
+    height: 91%;
+  }
+  .pad .payview .kite-box .info-tip > span {
+    font-size: 20px;
+  }
+  .pad .payview .kite-box .info-level {
+    font-size: 20px;
+  }
+  .pad .homePage .login-no {
+    right: 7%;
+  }
+  .pad .homePage .login-guest {
+    right: 7%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 45%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 21%;
+  }
+  .pad .userinfoview .login {
+    height: 36%;
+  }
+  .pad .row img {
+    height: 160px;
+  }
+  .pad .detailsview .x-large__title {
+    font-size: 30px;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 220px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.3rem;
+  }
+  .pad .payview .kite {
+    padding-top: 4%;
+  }
+  .pad .user-balance {
+    margin-top: 0;
+    font-size: 0.8rem;
+    padding: 0 0 0 38px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.2rem;
+  }
+  .pad .dialog-content .cancel {
+    height: 17%;
+  }
+  .pad .dialog-content .ok {
+    height: 17%;
+  }
+  .pad .boy-head-top {
+    height: 41%;
+  }
+  .pad .user-tile {
+    width: 51px;
+    height: 58px;
+  }
+  .pad .bookshop .s-main-1 {
+    height: 14%;
+  }
+  .pad .contrastPage .rank .rankCtn li span {
+    font-size: 1rem;
+  }
+  .pad .contrastPage .rank .rankCtn li span strong {
+    top: -18%;
+    width: 20%;
+    height: 90%;
+  }
+  .pad .contrastPage .rank .myRank span {
+    font-size: 1.2rem;
+  }
+  .pad .contrastPage .goBack {
+    height: 8%;
+  }
+  .pad .readprogramPage .dialog {
+    width: 32%;
+    padding: 9% 0 0 6.5%;
+    font-size: 1rem;
+  }
+  .pad .setreadprogramPage .sec .makePlan {
+    width: 80%;
+  }
+  .pad .contactPage .wrap .contact {
+    width: 92%;
+    margin: 15% auto 0;
+    height: 80%;
+  }
+  .pad .contactPage .contactCtn .detailsRight {
+    width: 53%;
+  }
+  .pad .contactPage .contactCtn .detailsLeft {
+    width: 45%;
+  }
+  .pad .contactPage .wrap .goback {
+    height: 8%;
+  }
+  .pad .questionPage .checkAns {
+    height: 48%;
+  }
+  .pad .questionPage .answerall {
+    height: 50%;
+  }
+  .pad .questionPage .answerwrong {
+    height: 55%;
+  }
+  .pad .questionPage .testCtn .choices {
+    height: 33%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .readprogramPage .row {
+    padding-top: 3%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 22%;
+    bottom: 20%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    height: 80%;
+    top: 10%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 32%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 30%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 25%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 32%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 33%;
+    height: 42%;
+    left: 65.5%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 18%;
+  }
+  .pad .grid {
+    padding: 7% 2% 3%;
+    height: 63%;
+    margin-top: 140px;
+  }
+  .pad .start4 {
+    left: 74%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+  }
+}
+@media all and (width: 1024px) and (height: 800px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .image-boy {
+    height: 19%;
+  }
+  .pad .image-girl {
+    height: 22%;
+  }
+  .pad .row img {
+    height: 170px;
+  }
+  .pad .bookshop .row img {
+    height: 156px;
+  }
+  .pad .big-cate,
+  .pad .load-more,
+  .pad .bookshop-search input {
+    font-size: 18px;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 42%;
+  }
+  .pad .userinfoview .login {
+    height: 38.5%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 200px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.4rem;
+  }
+  .pad .user-balance {
+    font-size: 1rem;
+    padding: 0 0 0 38px;
+    margin-top: -1px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.5rem;
+  }
+  .pad .questionPage .checkAns {
+    height: 58%;
+  }
+  .pad .questionPage .answerall {
+    height: 60%;
+  }
+  .pad .readprogramPage .row {
+    padding-top: 3%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 22%;
+    bottom: 20%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 80%;
+    margin: 0 auto;
+    height: 80%;
+    top: 10%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 26%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 26%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 22%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 26%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 28%;
+    height: 42%;
+    left: 65.5%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 18%;
+  }
+  .pad .user_nav {
+    width: 19%;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 24%;
+  }
+  .pad .grid {
+    padding: 5% 2% 3%;
+    height: 63%;
+    margin-top: 140px;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+}
+@media all and (width: 1024px) and (height: 1024px) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .banner {
+    height: 6%;
+  }
+  .pad .bookshop .row img {
+    height: 182px;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .delete-switch {
+    top: -10%;
+    width: 12%;
+    height: 23%;
+  }
+  .pad .image-boy {
+    height: 16%;
+    width: 10%;
+    right: 12.5%;
+  }
+  .pad .image-girl {
+    height: 18.6%;
+  }
+  .pad .tap-position {
+    height: 36%;
+  }
+  .pad .confirm-dialog-container {
+    left: 26%;
+    width: 45%;
+    top: 37%;
+    height: 33%;
+  }
+  .pad .my-books {
+    height: 23%;
+  }
+  .pad .big-cate {
+    width: 11%;
+    height: 45%;
+  }
+  .pad .footer {
+    height: 7.12%;
+  }
+  .pad .homePage .dog-location {
+    margin-top: -3.7%;
+  }
+  .pad .stack-room {
+    top: 21%;
+  }
+  .pad .orange-bird {
+    height: 6.3%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 38%;
+    height: 56%;
+  }
+  .pad .s-main-1 {
+    height: 14%;
+  }
+  .pad .row img {
+    height: 190px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.4rem;
+  }
+  .pad .user-balance {
+    font-size: 1rem;
+    padding: 0 0 0 38px;
+    margin-top: -1px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    height: 2.5rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 67%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 200px;
+  }
+  .pad .detailsview .kite-box--buy .title {
+    height: 22%;
+  }
+  .pad .detailsview .kite-box--buy .buys div {
+    margin-top: 10px;
+  }
+  .pad .metro-confirm-row {
+    top: 50.5%;
+  }
+  .pad .user-tile {
+    width: 53px;
+    height: 66px;
+  }
+  .pad .detailsview .kite-box--in {
+    width: 70%;
+    height: 57%;
+  }
+  .pad .contrastPage .rank .myRank span strong.num {
+    height: 60%;
+  }
+  .pad .contrastPage .rank .rankCtn li span strong {
+    height: 80%;
+  }
+  .pad .contrastPage .goBack {
+    height: 8%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 10%;
+  }
+  .pad .setreadprogramPage .sec .makePlan {
+    width: 80%;
+  }
+  .pad .questionPage .testCtn .choices .option {
+    height: 47%;
+  }
+  .pad .questionPage .checkAns {
+    height: 45%;
+  }
+  .pad .questionPage .answerwrong {
+    height: 50%;
+  }
+  .pad .questionPage .answerall {
+    height: 40%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .readprogramPage .row {
+    padding-top: 6%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 22%;
+    bottom: 20%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 100%;
+    height: 80%;
+    top: 10%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 30%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 30%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 26%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 30%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 32%;
+    height: 42%;
+    left: 65.5%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 18%;
+  }
+  .pad .contactPage .wrap .goback {
+    height: 8%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    margin: 166px 84px 0 72px;
+    height: 55%;
+    padding: 5% 2% 3%;
+  }
+  .pad .start4 {
+    left: 74%;
+  }
+}
+@media all and (width: 1024px) and (height: 960px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin-top: 88px;
+  }
+  .pad .banner {
+    height: 6%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 35%;
+    height: 59%;
+  }
+  .pad .row img {
+    height: 180px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.4rem;
+  }
+  .pad .payview .kite {
+    padding-top: 4%;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 38px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 3rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 200px;
+  }
+  .pad .detailsview .kite-box--buy .title {
+    height: 22%;
+  }
+  .pad .confirm-dialog-ctn {
+    height: 12%;
+  }
+  .pad .detailsview .kite-box--buy .buys div {
+    margin-top: 10px;
+  }
+  .pad .dialog-content .cancel {
+    height: 17%;
+  }
+  .pad .dialog-content .ok {
+    height: 17%;
+  }
+  .pad .boy-head-top {
+    height: 40%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    height: 80%;
+  }
+  .pad .detailsview .kite-box--in {
+    width: 70%;
+    height: 57%;
+  }
+  .pad .s-main-1 {
+    height: 14%;
+  }
+  .pad .contrastPage .rank .myRank span {
+    height: 80%;
+  }
+  .pad .contrastPage .rank .rankCtn li span {
+    height: 90%;
+  }
+  .pad .contrastPage .goBack {
+    height: 8%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 9.5%;
+  }
+  .pad .readprogramPage .row .lock {
+    bottom: -1%;
+  }
+  .pad .questionPage .testCtn .choices .option {
+    height: 47%;
+  }
+  .pad .questionPage .checkAns {
+    height: 48%;
+  }
+  .pad .questionPage .answerwrong {
+    height: 50%;
+  }
+  .pad .questionPage .answerall {
+    height: 50%;
+  }
+  .pad .readprogramPage .row {
+    padding-top: 6%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 22%;
+    bottom: 20%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 100%;
+    height: 90%;
+    top: 5%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 30%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 30%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 26%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 30%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 32%;
+    height: 42%;
+    left: 65.5%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 18%;
+  }
+  .pad .contactPage .wrap .goback {
+    height: 8%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    margin: 166px 84px 0 72px;
+    height: 55%;
+    padding: 5% 2% 3%;
+  }
+  .pad .start4 {
+    left: 74%;
+  }
+}
+@media all and (width: 1024px) and (min-height: 720px) and (max-height: 768px) and (orientation: landscape) {
+  .pad .user_nav {
+    width: 20%;
+    height: 10%;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .homePage .login {
+    height: 38%;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.6rem;
+  }
+  .pad .payview .kite__item--buy {
+    padding: 5px;
+  }
+  .pad .user-balance {
+    line-height: 100%;
+  }
+  .pad .row img {
+    height: 190px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 1.1rem;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 180px;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 38px;
+    margin-top: 1px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.4rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66.2%;
+  }
+  .pad .userinfoview .login {
+    height: 42%;
+  }
+  .pad .payview .kite__item--border {
+    margin: 15px 0;
+  }
+  .pad .payview .kite {
+    padding-top: 0%;
+  }
+  .pad .user-tile {
+    height: 51px;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 64%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 7%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 24%;
+    bottom: 18%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+  }
+  .pad .listenbookPage .todayReading {
+    height: 23%;
+    top: 49%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 24%;
+    height: 28%;
+  }
+  .pad .contrastPage .num2 {
+    width: 24%;
+    height: 32%;
+  }
+  .pad .contrastPage .num3 {
+    width: 20%;
+    height: 28%;
+  }
+  .pad .contrastPage .num4 {
+    width: 24%;
+    height: 28%;
+  }
+  .pad .contrastPage .num5 {
+    width: 26%;
+    height: 42%;
+    left: 69.5%;
+  }
+  .pad .contactPage .wrap .goback {
+    height: 8%;
+    width: 8%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 20%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 100px;
+    margin: 1% auto;
+  }
+}
+@media all and (width: 1024px) and (height: 720px) and (orientation: landscape) {
+  .pad .readprogramPage .dialog {
+    padding-top: 6.2%;
+  }
+  .pad .readprogramPage .finished {
+    padding-top: 0;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    left: 10%;
+  }
+  .pad .s-main-1 {
+    height: 18%;
+  }
+  .pad .banner {
+    height: 8%;
+  }
+  .pad .grid {
+    padding: 2% 2% 3%;
+  }
+}
+@media all and (width: 1024px) and (height: 600px) and (orientation: landscape) {
+  .pad {
+    /* userinfo */
+  }
+  .pad .homePage .login {
+    width: 38%;
+    height: 52.5%;
+  }
+  .pad .payview .kite__item--buy {
+    padding: 5px;
+  }
+  .pad .userinfoview .kite-box--in {
+    top: -12%;
+    width: 40%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 25%;
+  }
+  .pad .userinfoview .login {
+    height: 48.5%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 120px;
+    overflow-y: scroll;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: small;
+    background-color: #ffffff;
+  }
+  .pad .row img {
+    height: 180px;
+  }
+  .pad .readprogramPage .row img {
+    height: 145px;
+  }
+  .pad .readprogramPage .unlockwodrd {
+    font-size: 1rem;
+  }
+  .pad .readprogramPage .finished {
+    padding: 0;
+    position: relative;
+    top: -20px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.2rem;
+  }
+  .pad .user-balance {
+    font-size: 0.8rem;
+    padding: 0 0 0 38px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.2rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66.3%;
+    font-size: 1rem;
+  }
+  .pad .payview .kite__item--border {
+    margin: 10px 0;
+  }
+  .pad .user_nav {
+    height: 14%;
+  }
+  .pad .s-main-1 {
+    height: 20%;
+  }
+  .pad .banner {
+    height: 10%;
+  }
+  .pad .contrastPage .rank .rankType li {
+    font-size: 0.8rem;
+  }
+  .pad .contrastPage .rank .myRank span {
+    height: 80%;
+    font-size: 1.2rem;
+  }
+  .pad .contrastPage .rank .rankCtn li span {
+    height: 100%;
+    font-size: 1rem;
+  }
+  .pad .contrastPage .rank .rankCtn li span strong {
+    font-size: 0.8rem;
+    top: -12%;
+    width: 15%;
+  }
+  .pad .contrastPage .rank .myRank {
+    bottom: 0;
+  }
+  .pad .contrastPage .rank .myRank span strong.num {
+    width: 22%;
+    height: 80%;
+    top: 0;
+  }
+  .pad .contrastPage .goBack {
+    height: 8%;
+    width: 6%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 5.3%;
+    font-size: 1rem;
+  }
+  .pad .questionPage .checkAns {
+    height: 77%;
+  }
+  .pad .questionPage .answerwrong {
+    height: 70%;
+  }
+  .pad .questionPage .answerall {
+    height: 70%;
+  }
+  .pad .contactPage .wrap .contact {
+    margin: 7% auto 0;
+    width: 90%;
+    height: 85%;
+  }
+  .pad .contactPage .wrap .goback {
+    width: 7%;
+  }
+  .pad .readprogramPage .row .lock {
+    height: 24%;
+    bottom: 18%;
+    right: 6%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    left: 10%;
+  }
+  .pad .finish .book-download {
+    bottom: 18%;
+    right: 5%;
+    width: 20%;
+  }
+  .pad .contrastPage .num1 {
+    width: 24%;
+    height: 32%;
+  }
+  .pad .contrastPage .num2 {
+    width: 26%;
+    height: 44%;
+    left: 50%;
+  }
+  .pad .contrastPage .num3 {
+    width: 22%;
+    height: 40%;
+  }
+  .pad .contrastPage .num4 {
+    width: 26%;
+    height: 40%;
+    top: 2%;
+  }
+  .pad .contrastPage .num5 {
+    width: 28%;
+    height: 60%;
+    left: 65.5%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 20%;
+  }
+  .pad .readprogramPage .balloon_yellow {
+    top: 28%;
+  }
+  .pad .readprogramPage .balloon_green {
+    top: 28%;
+  }
+  .pad .confirm-dialog-container {
+    width: 38%;
+    height: 55%;
+    left: 31%;
+  }
+  .pad .readprogramyayPage .sec {
+    width: 80%;
+    left: 10%;
+  }
+  .pad .readprogramyayPage .goBack {
+    height: 10%;
+  }
+  .pad .readprogramPage .unlock {
+    margin-top: 0;
+  }
+  .pad .readprogramPage .unlock {
+    height: 50px;
+  }
+  .pad .start3 {
+    top: 18.5%;
+  }
+  .pad .start4 {
+    left: 74%;
+  }
+}
+@media all and (min-width: 1088px) and (max-width: 1093px) and (orientation: landscape) {
+  .pad {
+    /* home page */
+    /* bookshop */
+    /* userinfo */
+    /*.login-ok {
+        left: 68.5%;
+    }
+    .login-no {
+        left: 68%;
+    }*/
+  }
+  .pad .h-container {
+    width: 98%;
+  }
+  .pad .banner {
+    width: 70%;
+  }
+  .pad .contrastPage .num1 {
+    width: 24%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 22%;
+  }
+  .pad .user_nav {
+    width: 18%;
+    height: 10%;
+  }
+  .pad .grid {
+    margin: 80px 84px 0 56px;
+    height: 70%;
+  }
+  .pad .grid:before {
+    width: 110.5%;
+    margin-top: -5.5%;
+    margin-left: -6%;
+    height: 119%;
+  }
+  .pad .grid:after {
+    width: 112%;
+    margin-top: -6.5%;
+    margin-left: -7%;
+    height: 122.5%;
+  }
+  .pad .orange-bird {
+    top: 3.6%;
+    height: 8%;
+  }
+  .pad .image-girl {
+    width: 10%;
+    height: 20%;
+  }
+  .pad .image-boy {
+    right: 10%;
+    width: 7%;
+    height: 17.3%;
+  }
+  .pad .treasure-box {
+    right: 17%;
+  }
+  .pad .row img {
+    height: 182px;
+  }
+  .pad .bookshop .row img {
+    height: 173px;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .delete-switch {
+    left: -5%;
+    top: -5%;
+  }
+  .pad .big-cate {
+    font-size: 18px;
+    left: 3%;
+    width: 11%;
+    height: 60%;
+  }
+  .pad .bookshop-search input {
+    font-size: 20px;
+  }
+  .pad .giraffe {
+    right: 0.2%;
+    width: 14.9%;
+    height: 48.2%;
+  }
+  .pad .book-download {
+    right: 5%;
+  }
+  .pad .metro-confirm-row,
+  .pad .metro-confirm-button {
+    font-size: 20px;
+  }
+  .pad .tap-position {
+    width: 16%;
+  }
+  .pad .finish .book-download {
+    bottom: 20%;
+    rigght: 8%;
+  }
+  .pad .dog-path {
+    left: 54.5%;
+  }
+  .pad .dog-location {
+    margin-top: -3%;
+  }
+  .pad .payview .kite__item {
+    font-size: 1rem;
+  }
+  .pad .userinfoview .login {
+    height: 38.5%;
+  }
+  .pad .user-balance {
+    font-size: 1rem;
+    padding: 0 0 0 38px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.5rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66.5%;
+    font-size: 1.2rem;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 200px;
+  }
+  .pad .payview .kite {
+    padding-top: 1%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 35%;
+  }
+  .pad .questionPage .checkAns {
+    height: 64%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 2.5% 2% 3%;
+    height: 64%;
+    margin-top: 140px;
+  }
+}
+@media all and (width: 1152px) and (orientation: landscape) {
+  .pad {
+    /*.login-no{        
+        width: 7.5%;
+        height: 2.8%;
+        line-height: 139%;
+        top: 7%;
+    }*/
+    /* userinfo */
+    /*pay*/
+    /*导航 PC特殊*/
+  }
+  .pad .grid {
+    margin: 96px 82px 0 60px;
+    height: 72%;
+    border-width: 68px;
+  }
+  .pad .grid:before {
+    width: 108%;
+    margin-top: -4.9%;
+    margin-left: -6.5%;
+    height: 115%;
+  }
+  .pad .grid:after {
+    width: 111%;
+    margin-top: -6%;
+    margin-left: -7.5%;
+    height: 118.2%;
+  }
+  .pad .image-girl {
+    width: 11%;
+    bottom: 6.2%;
+    height: 20%;
+  }
+  .pad .image-boy {
+    right: 10.6%;
+    bottom: 6.2%;
+    height: 18%;
+  }
+  .pad .row img {
+    height: 208px;
+    padding: 4px;
+    border-width: 1.5px;
+  }
+  .pad .bookshop .row img {
+    height: 194px;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .delete-switch {
+    left: -6%;
+    top: -12%;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 21px;
+  }
+  .pad .bookshop-search input {
+    font-size: 20px;
+  }
+  .pad .metro-confirm-row,
+  .pad .metro-confirm-button {
+    font-size: 21px;
+  }
+  .pad .dog-location {
+    height: 92%;
+    margin-top: -2.8%;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .user_nav {
+    width: 20%;
+    height: 10%;
+  }
+  .pad .footer {
+    height: 8%;
+  }
+  .pad .col-xs-4,
+  .pad .col-md-4 {
+    padding: 0 12px;
+  }
+  .pad .h-container {
+    width: 100%;
+  }
+  .pad .img-rounded {
+    border-radius: 8px;
+  }
+  .pad .userinfoview .login {
+    height: 34.5%;
+  }
+  .pad .payview .kite-box .info-tip > span {
+    font-size: 22px;
+  }
+  .pad .s-nav .mask {
+    bottom: -4px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.6rem;
+  }
+  .pad .user-balance {
+    font-size: 1rem;
+    padding: 0 0 0 38px;
+    margin-top: 2px;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 2.8rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66%;
+    font-size: 1.2rem;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 230px;
+  }
+  .pad .bookshop .s-main-1 {
+    height: 16%;
+  }
+  .pad .payview .kite {
+    padding-top: 1%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 7.6%;
+  }
+  .pad .questionPage .checkAns {
+    height: 58%;
+  }
+  .pad .userinfoview .user-tile {
+    width: 14%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .finish .book-download {
+    bottom: 16%;
+    right: 5%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 22%;
+  }
+  .pad .contrastPage .num1 {
+    width: 24%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 4% 2% 3%;
+    height: 64%;
+    margin-top: 140px;
+  }
+}
+@media all and (width: 1280px) and (orientation: landscape) {
+  .pad {
+    /*.login-no {
+        top: 7.2%;
+        width: 7%;
+        line-height: 142%;
+        height: 3%;
+        left: 69%;
+    }*/
+    /* userinfo */
+    /* pay */
+  }
+  .pad .grid {
+    margin: 96px 80px 0 66px;
+    height: 71%;
+    border-width: 76px;
+  }
+  .pad .user_nav {
+    width: 20%;
+    height: 10%;
+  }
+  .pad .grid:before {
+    width: 112%;
+    margin-top: -5.2%;
+    margin-left: -7%;
+    height: 117.2%;
+  }
+  .pad .grid:after {
+    width: 113.6%;
+    margin-top: -6%;
+    margin-left: -8%;
+    height: 120.5%;
+  }
+  .pad .image-girl {
+    width: 9%;
+    height: 20%;
+  }
+  .pad .image-boy {
+    right: 9.5%;
+    width: 7.2%;
+    height: 17%;
+  }
+  .pad .contrastPage .num1 {
+    width: 22%;
+  }
+  .pad .row img {
+    height: 230px;
+    padding: 4px;
+  }
+  .pad .bookshop .row img {
+    height: 203px;
+  }
+  .pad .h-container {
+    width: 100%;
+  }
+  .pad .delete-switch {
+    width: 9%;
+    height: 20%;
+    left: -8.5%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 21px;
+  }
+  .pad .bookshop-search input {
+    font-size: 28px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 1.6rem;
+  }
+  .pad .toast-message {
+    font-size: 21px;
+  }
+  .pad .dog-location {
+    margin-top: -3%;
+  }
+  .pad .dog-path {
+    left: 55%;
+  }
+  .pad .finish .book-download {
+    right: 6%;
+    bottom: 14%;
+  }
+  .pad .homePage .login {
+    height: 37.5%;
+  }
+  .pad .userinfoview .login {
+    height: 34.5%;
+  }
+  .pad .user-tile {
+    width: 62px;
+    height: 62px;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.8rem;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 44px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 3rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 66%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 230px;
+  }
+  .pad .user-tile-yun-bt {
+    width: 13%;
+  }
+  .pad .payview .kite {
+    padding-top: 3%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 30%;
+  }
+  .pad .s-main-1 {
+    height: 15%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 17%;
+  }
+  .pad .button-continue {
+    height: 24%;
+  }
+  .pad .button-back {
+    height: 20%;
+  }
+  .pad .kite-box--border {
+    padding: 1% 0px 0 16px;
+  }
+  .pad .kite--fill-a {
+    height: 47%;
+  }
+  .pad .kite-box .user-exit {
+    width: 8.5%;
+    height: 5%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .questionPage .checkAns {
+    height: 64%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 20%;
+  }
+  .pad .homePage .user-tile,
+  .pad .readprogramPage .user-tile,
+  .pad .listenbookPage .user-tile,
+  .pad .contrastPage .user-tile {
+    margin: 4% auto 2%;
+    width: 65%;
+    height: 90%;
+    padding: 14px;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 4% 2% 3%;
+    height: 64%;
+    margin-top: 140px;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+}
+@media all and (width: 1280px) and (height: 1024px) and (orientation: landscape) {
+  .pad .metro-confirm-row {
+    font-size: 1.6rem;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 32%;
+  }
+  .pad .user-tile {
+    width: 68px;
+    height: 69px;
+  }
+  .pad .s-main-1 {
+    height: 13.5%;
+  }
+  .pad .kite-box--in {
+    height: 60%;
+  }
+  .pad .kite-box .user-exit {
+    top: 2.5%;
+    width: 8%;
+    height: 5.2%;
+  }
+  .pad .image-girl {
+    width: 9%;
+    height: 19%;
+  }
+  .pad .button-continue {
+    height: 21%;
+  }
+  .pad .button-back {
+    height: 20%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .questionPage .checkAns {
+    height: 57%;
+  }
+  .pad .readprogramPage .row .lock {
+    right: 5%;
+  }
+  .pad .contrastPage .rank .myRank {
+    height: 8%;
+  }
+  .pad .dog-location {
+    margin-top: -2%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 8%;
+  }
+  .pad .contrastPage .goBack {
+    width: 8%;
+    height: 8%;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .homePage .user-tile,
+  .pad .readprogramPage .user-tile,
+  .pad .listenbookPage .user-tile,
+  .pad .contrastPage .user-tile {
+    margin: 4% auto 2%;
+    width: 70%;
+    height: 90%;
+    padding: 14px;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 4% 2% 3%;
+    height: 64%;
+    margin-top: 160px;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+}
+@media all and (width: 1344px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 108px 106px 0 66px;
+    height: 71%;
+    border-width: 76px;
+  }
+  .pad .grid:before {
+    width: 112%;
+    margin-top: -5.2%;
+    margin-left: -7%;
+    height: 117%;
+  }
+  .pad .grid:after {
+    width: 113.6%;
+    margin-top: -6%;
+    margin-left: -8%;
+    height: 120.5%;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .image-girl {
+    width: 10%;
+    height: 18%;
+  }
+  .pad .image-boy {
+    right: 10%;
+    width: 7.2%;
+    height: 15%;
+  }
+  .pad .row img {
+    height: 226px;
+    padding: 4px;
+  }
+  .pad .bookshop .row img {
+    height: 208px;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 21%;
+  }
+  .pad .contactPage .contactCtn .subtitle {
+    font-size: 2rem;
+  }
+  .pad .contactPage .ctnDetails .list {
+    font-size: 1.1rem;
+  }
+  .pad .h-container {
+    width: 100%;
+  }
+  .pad .delete-switch {
+    width: 9%;
+    height: 21%;
+    left: -8.5%;
+    top: -8%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 21px;
+  }
+  .pad .bookshop-search input {
+    font-size: 28px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 1.4rem;
+  }
+  .pad .toast-message {
+    font-size: 21px;
+  }
+  .pad .dog-location {
+    margin-top: -3%;
+  }
+  .pad .dog-path {
+    left: 55%;
+  }
+  .pad .finish .book-download {
+    right: 6%;
+    bottom: 13%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 110px;
+  }
+  .pad .login-no {
+    top: 5%;
+    width: 8%;
+    line-height: 142%;
+    height: 3%;
+    right: 10%;
+  }
+  .pad .login-guest {
+    top: 5%;
+    width: 8%;
+    line-height: 142%;
+    height: 3%;
+    right: 10%;
+  }
+  .pad .big-cate {
+    top: 32%;
+    left: 3%;
+    width: 11%;
+    height: 58%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 80%;
+    height: 75%;
+  }
+  .pad .userinfoview .login {
+    height: 31.5%;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.8rem;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 44px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 3rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 70%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 270px;
+  }
+  .pad .userinfoview .user-tile-yun-top {
+    width: 11%;
+  }
+  .pad .user-tile-yun-bt {
+    width: 13%;
+  }
+  .pad .payview .kite {
+    padding-top: 3%;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 30%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 16%;
+  }
+  .pad .row {
+    padding-top: 38px;
+  }
+  .pad .user_nav {
+    width: 18%;
+  }
+  .pad .homePage .user-tile,
+  .pad .readprogramPage .user-tile,
+  .pad .listenbookPage .user-tile,
+  .pad .contrastPage .user-tile {
+    margin: 4% auto 2%;
+    width: 70%;
+    height: 90%;
+    padding: 14px;
+  }
+  .pad .contrastPage .num1 {
+    width: 24%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .questionPage .checkAns {
+    height: 57%;
+  }
+  .pad .readprogramPage .row .lock {
+    right: 5%;
+  }
+  .pad .contrastPage .rank .myRank {
+    height: 8%;
+  }
+  .pad .dog-location {
+    margin-top: -2%;
+  }
+  .pad .readprogramPage .dialog {
+    padding-top: 8%;
+  }
+  .pad .contrastPage .goBack {
+    width: 8%;
+    height: 8%;
+  }
+  .pad .contrastPage .rank .myRank span strong.num {
+    width: 26%;
+  }
+  .pad .contrastPage .rank .rankCtn li span {
+    width: 24%;
+    height: 90%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 140px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 4% 2% 3%;
+    height: 64%;
+    margin-top: 180px;
+  }
+}
+@media all and (width: 1536px) and (orientation: landscape) {
+  .pad {
+    /* home page */
+    /* bookshop*/
+    /*pay*/
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 126px 121px 0 90px;
+    height: 71%;
+    border-width: 90px;
+  }
+  .pad .grid:before {
+    margin-top: -5%;
+    margin-left: -7%;
+    width: 111%;
+    height: 119%;
+  }
+  .pad .grid:after {
+    margin-top: -6%;
+    margin-left: -8%;
+    width: 112.7%;
+    height: 122.2%;
+  }
+  .pad .row img {
+    height: 260px;
+  }
+  .pad .bookshop .row img {
+    height: 248px;
+  }
+  .pad .h-container {
+    width: 100%;
+  }
+  .pad .delete-switch {
+    width: 9%;
+    height: 20%;
+    left: -7%;
+    top: -8%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .orange-bird {
+    top: 3.2%;
+    height: 8%;
+  }
+  .pad .image-girl {
+    width: 11%;
+    height: 19%;
+  }
+  .pad .image-boy {
+    right: 11%;
+    width: 6.59%;
+    height: 16%;
+  }
+  .pad .treasure-box {
+    right: 16%;
+  }
+  .pad .s-main-1 {
+    height: 17%;
+  }
+  .pad .big-cate {
+    left: 3%;
+    width: 10%;
+    height: 59%;
+  }
+  .pad .s-main-middle {
+    width: 89%;
+  }
+  .pad .progress-bar {
+    width: 99%;
+  }
+  .pad .giraffe {
+    right: 0.2%;
+    height: 46.2%;
+  }
+  .pad .tap-position {
+    width: 16%;
+  }
+  .pad .finish .book-download {
+    right: 12%;
+    bottom: 18%;
+  }
+  .pad .dog-location {
+    margin-top: -3%;
+  }
+  .pad .dog-path {
+    left: 54.5%;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 28px;
+  }
+  .pad .bookshop-search input {
+    font-size: 36px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 28px;
+  }
+  .pad .toast-message {
+    font-size: 24px;
+  }
+  .pad .progress-bar {
+    float: none;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 28px;
+  }
+  .pad .s-progress {
+    line-height: 100%;
+    font-size: 24px;
+  }
+  .pad .green .completion,
+  .pad .pink .completion {
+    height: 20px;
+  }
+  .pad .row .placeholder {
+    height: 40px;
+    width: 95%;
+    margin-top: 2%;
+  }
+  .pad .img-rounded {
+    border-radius: 10px;
+  }
+  .pad .row img {
+    border: 2px dashed #000;
+    padding: 5px;
+  }
+  .pad .arrow-up {
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 12px solid #FFF;
+  }
+  .pad .book-download {
+    right: 7%;
+  }
+  .pad .dk-login {
+    top: 7%;
+    width: 26%;
+  }
+  .pad .login-text {
+    margin: 10px auto;
+    max-width: 100px;
+    padding: 4px;
+    font-size: 21px;
+  }
+  .pad .login-email,
+  .pad .login-password {
+    padding: 0 0 0 45px;
+  }
+  .pad .find-email,
+  .pad .login-btn,
+  .pad .login-input input,
+  .pad .email-input input {
+    font-size: 21px;
+  }
+  .pad .login-button {
+    margin-top: 45px;
+  }
+  .pad .found-register {
+    font-size: 15px;
+  }
+  .pad .login-other {
+    font-size: 18px;
+  }
+  .pad .found-register,
+  .pad .login-other,
+  .pad .other-hr {
+    border-width: 2px;
+  }
+  .pad .top-text {
+    font-size: 24px;
+  }
+  .pad .password-input-info {
+    font-size: 15px;
+  }
+  .pad .find-email-button {
+    margin-bottom: 20px;
+  }
+  .pad .password-input-info {
+    margin-top: 28px;
+  }
+  .pad .email-input {
+    margin: 20px 0;
+  }
+  .pad .register-clause {
+    font-size: 15px;
+  }
+  .pad .clause-left {
+    margin-top: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+  .pad .member-levels {
+    font-size: 18px;
+  }
+  .pad .member-name {
+    font-size: 28px;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 80%;
+    height: 75%;
+  }
+  .pad .payview .payNub {
+    line-height: 100%;
+  }
+  .pad .homePage .user-tile,
+  .pad .readprogramPage .user-tile,
+  .pad .listenbookPage .user-tile,
+  .pad .contrastPage .user-tile {
+    margin: 4% auto 2%;
+    width: 64%;
+    height: 90%;
+    padding: 13px;
+  }
+  .pad .homePage .login {
+    height: 38.5%;
+  }
+  .pad .homePage .login-guest {
+    width: 9.5%;
+    height: 4%;
+    font-size: 26px;
+  }
+  .pad .homePage .button-style-red {
+    font-size: 2.0em;
+  }
+  .pad .user_nav {
+    width: 20%;
+    height: 10%;
+  }
+  .pad .contactPage .contactCtn .subtitle {
+    font-size: 1.8rem;
+  }
+  .pad .contactPage .ctnDetails .list {
+    font-size: 1.2rem;
+  }
+  .pad .userinfoview .login {
+    height: 32.5%;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.8rem;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 38px;
+    margin-top: 0;
+    margin-left: 27%;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 0%;
+    height: 3rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 70%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 300px;
+  }
+  .pad .userinfoview .kite-box--in {
+    width: 30%;
+  }
+  .pad .userinfoview .display-avatar {
+    width: 155%;
+    right: -30%;
+  }
+  .pad .kite-box .user-exit {
+    width: 9%;
+  }
+  .pad .progress-bar .completion {
+    height: 1.25em;
+  }
+  .pad .s-progress {
+    font-size: 1rem;
+    line-height: 114%;
+  }
+  .pad .kite-box--theme_info {
+    background-size: 100% 100%;
+  }
+  .pad .contrastPage .rank .myRank span strong.num {
+    width: 20%;
+    height: 60%;
+  }
+  .pad .contrastPage .rank .rankCtn li span strong {
+    width: 13%;
+    height: 80%;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 100px;
+  }
+  .pad .readprogramPage .row .lock {
+    right: 10%;
+    bottom: 17%;
+  }
+  .pad .questionPage .checkAns {
+    height: 64%;
+  }
+  .pad .listenbookPage .containerbg {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .pad .contrastPage .num1 {
+    width: 23%;
+  }
+  .pad .questionPage .testCtn .question {
+    padding-top: 20%;
+  }
+  .pad .readprogramPage .unlock {
+    height: 80px;
+  }
+  .pad .readprogramPage .todayReading {
+    height: 140px;
+    margin: 1% auto;
+  }
+  .pad .grid {
+    padding: 3% 2% 3%;
+    height: 64%;
+    margin-top: 180px;
+  }
+  .pad .banner {
+    height: 7%;
+  }
+  .pad .readprogramPage .finished {
+    height: 70px;
+  }
+}
+@media all and (width: 1536px) and (height: 1200px) and (orientation: landscape) {
+  .pad {
+    /*pay*/
+    /* userinfo */
+  }
+  .pad .bookshop-title {
+    left: 25.7%;
+    width: 50%;
+    height: 49%;
+  }
+  .pad .login-no {
+    height: 2.8%;
+  }
+  .pad .login-guest {
+    height: 2.8%;
+  }
+  .pad .footer {
+    height: 8.2%;
+  }
+  .pad .image-boy {
+    width: 7.3%;
+  }
+  .pad .image-girl {
+    width: 10.5%;
+    height: 18.5%;
+  }
+  .pad .big-cate {
+    width: 11%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 80%;
+    height: 75%;
+  }
+  .pad .homePage .user-payment {
+    width: 6.5%;
+  }
+  .pad .homePage .user-tile {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+  }
+  .pad .homePage .login {
+    height: 34.5%;
+  }
+  .pad .homePage .login-no {
+    width: 9.5%;
+    height: 3.2%;
+    font-size: 22px;
+  }
+  .pad .homePage .login-guest {
+    width: 9.5%;
+    height: 3.2%;
+    font-size: 22px;
+  }
+  .pad .homePage .button-style-red {
+    font-size: 2.0em;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 5%;
+  }
+  .pad .userinfoview .login {
+    height: 30.5%;
+  }
+  .pad .payview .kite__item {
+    font-size: 1.8rem;
+  }
+  .pad .user-balance {
+    font-size: 1.2rem;
+    padding: 0 0 0 52px;
+    margin-top: 0;
+  }
+  .pad .detailsview .toolbar__recharge {
+    left: 15%;
+    height: 3rem;
+  }
+  .pad .detailsview .kite-box--buy .card .buy .price {
+    top: 70%;
+  }
+  .pad .detailsview .kite__item_content {
+    max-height: 300px;
+  }
+  .pad .user-tile-yun-bt {
+    width: 12%;
+  }
+  .pad .payview .kite {
+    padding-top: 5.5%;
+  }
+}
+@media all and (width: 2048px) and (height: 1080px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 116px 120px 0px 112px;
+    height: 72%;
+    border-width: 100px;
+  }
+  .pad .grid:before {
+    width: 112%;
+    margin-top: -5.2%;
+    margin-left: -7%;
+    height: 118.5%;
+  }
+  .pad .grid:after {
+    width: 113.6%;
+    margin-top: -6%;
+    margin-left: -8%;
+    height: 122.5%;
+  }
+  .pad .image-girl {
+    width: 8%;
+    height: 21.6%;
+  }
+  .pad .image-boy {
+    right: 8.2%;
+    width: 6%;
+    height: 18.8%;
+  }
+  .pad .bookshop-title {
+    left: 32.6%;
+    width: 35%;
+  }
+  .pad .row img {
+    height: 346px;
+  }
+  .pad .h-container {
+    width: 92%;
+  }
+  .pad .delete-switch {
+    width: 8%;
+    height: 29%;
+    left: -7%;
+    top: -16%;
+  }
+  .pad .book-del {
+    right: 0;
+  }
+  .pad .main-outline {
+    padding: 0 4.5%;
+  }
+  .pad .big-cate {
+    left: 3.5%;
+    width: 8%;
+    height: 56%;
+  }
+  .pad .giraffe {
+    width: 13%;
+  }
+  .pad .orange-bird {
+    width: 4%;
+  }
+  .pad .tap-position {
+    width: 12%;
+  }
+  .pad .movieclip {
+    width: 6%;
+    height: 38%;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 26px;
+  }
+  .pad .bookshop-search input {
+    font-size: 28px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 24px;
+  }
+  .pad .toast-message {
+    font-size: 21px;
+  }
+  .pad .confirm-dialog-container {
+    left: 35%;
+    width: 30%;
+  }
+  .pad .dog-location {
+    margin-top: -2%;
+    height: 92%;
+  }
+  .pad .dog-path {
+    left: 56.5%;
+  }
+  .pad .finish .book-download {
+    right: 0;
+    bottom: 11%;
+  }
+  .pad .banner {
+    height: 17%;
+  }
+  .pad .homePage .user-payment {
+    width: 5%;
+    height: 8.5%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 70%;
+    height: 75%;
+  }
+  .pad .homePage .login-no {
+    width: 7%;
+    height: 3.2%;
+    font-size: 20px;
+    right: 12%;
+  }
+  .pad .homePage .login-guest {
+    width: 7%;
+    height: 3.2%;
+    font-size: 20px;
+    right: 12%;
+  }
+  .pad .homePage .user-tile {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .pad .userinfoview .display-avatar {
+    height: 24%;
+  }
+}
+@media all and (width: 2048px) and (height: 1440px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 154px 162px 0px 102px;
+  }
+  .pad .dog-location {
+    height: 92%;
+    margin-top: -2.8%;
+  }
+  .pad .finish .book-download {
+    right: 0;
+    bottom: 11%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 70%;
+    height: 75%;
+  }
+  .pad .homePage .user-tile {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  .pad .homePage .login-no {
+    font-size: 26px;
+  }
+  .pad .homePage .login-guest {
+    font-size: 26px;
+  }
+  .pad .homePage .login {
+    height: 34%;
+  }
+  .pad .homePage .login .button-style-red {
+    font-size: 2.4em;
+  }
+  .pad .homePage .login .find-password {
+    font-size: 24px;
+  }
+  .pad .homePage .login .login-other {
+    font-size: 24px;
+  }
+  .pad .homePage .login .login-weibo {
+    padding: 0 0 0 45px;
+  }
+  .pad .homePage .login .login-qq {
+    padding: 0 0 0 45px;
+  }
+  .pad .homePage .login .login-input {
+    font-size: 24px;
+  }
+  .pad .homePage .login .register-prompt {
+    font-size: 24px;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 5%;
+  }
+}
+@media all and (width: 2048px) and (height: 1600px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .delete-switch {
+    left: -8%;
+    top: -14%;
+    height: 22%;
+  }
+  .pad .grid {
+    margin: 172px 172px 0px 106px;
+    height: 70%;
+  }
+  .pad .grid:before {
+    width: 113%;
+    height: 118%;
+  }
+  .pad .grid:after {
+    height: 120.8%;
+  }
+  .pad .image-boy {
+    height: 19%;
+  }
+  .pad .row img {
+    height: 342px;
+  }
+  .pad .bookshop .row img {
+    height: 336px;
+  }
+  .pad .homePage .user-payment {
+    width: 7%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 60%;
+    height: 60%;
+  }
+  .pad .homePage .login-no {
+    font-size: 26px;
+  }
+  .pad .homePage .login-guest {
+    font-size: 26px;
+  }
+  .pad .homePage .user-tile {
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 4%;
+  }
+}
+@media all and (min-width: 3072px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 228px 208px 0 181px;
+    border-width: 168px;
+    height: 71%;
+  }
+  .pad .grid:before {
+    margin-left: -7%;
+    height: 117%;
+  }
+  .pad .grid:after {
+    margin-left: -8.2%;
+    height: 121%;
+  }
+  .pad .footer {
+    max-height: 200px;
+  }
+  .pad .row img {
+    max-height: 800px;
+    max-width: 1000px;
+    height: 540px;
+  }
+  .pad .bookshop .row img {
+    height: 518px;
+  }
+  .pad .delete-switch {
+    left: -9%;
+    top: -15%;
+    height: 24%;
+  }
+  .pad .book-del {
+    right: 4.5%;
+  }
+  .pad .bookshop-title {
+    left: 26%;
+    width: 49%;
+  }
+  .pad .main-outline {
+    padding: 0 5.5%;
+  }
+  .pad .big-cate {
+    left: 3.5%;
+    width: 9%;
+  }
+  .pad .confirm-dialog-container {
+    left: 30%;
+    width: 40%;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 48px;
+  }
+  .pad .big-cate {
+    height: 56%;
+  }
+  .pad .bookshop-search input {
+    font-size: 50px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 48px;
+  }
+  .pad .toast-message {
+    font-size: 42px;
+  }
+  .pad .dog-location {
+    margin-top: -2.8%;
+  }
+  .pad .finish .book-download {
+    right: 0;
+    bottom: 8%;
+  }
+  .pad .image-boy {
+    height: 18%;
+  }
+  .pad .image-girl {
+    height: 20.5%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 60%;
+    height: 65%;
+  }
+  .pad .homePage .login-no {
+    right: 11%;
+    font-size: 50px;
+  }
+  .pad .homePage .login-guest {
+    right: 11%;
+    font-size: 50px;
+  }
+  .pad .homePage .user-tile {
+    width: 156px;
+    height: 156px;
+    border-radius: 156px;
+  }
+  .pad .userinfoview .display-avatar {
+    width: 100%;
+    right: 0%;
+    height: auto;
+    top: 10%;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 3%;
+  }
+  .pad .homePage .login .login-input {
+    font-size: 50px;
+  }
+  .pad .homePage .login .find-password {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-other {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-weibo {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .login-qq {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .button-style-red {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-username,
+  .pad .homePage .login .login-password,
+  .pad .homePage .login .register-email,
+  .pad .homePage .login .login-password2 {
+    padding: 0 0 0 60px;
+  }
+  .pad .homePage .login .find-password-bg {
+    height: 66px;
+  }
+  .pad .homePage .login .register-prompt {
+    font-size: 50px;
+  }
+}
+@media all and (width: 2304px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 8% 8% 0 6%;
+    height: 72%;
+    border-width: 136px;
+  }
+  .pad .grid:before {
+    width: 112%;
+    margin-top: -5.2%;
+    margin-left: -9%;
+    height: 118.9%;
+  }
+  .pad .grid:after {
+    width: 113.6%;
+    margin-top: -6.1%;
+    margin-left: -10.2%;
+    height: 122%;
+  }
+  .pad .image-girl {
+    width: 11%;
+    height: 19%;
+  }
+  .pad .image-boy {
+    right: 11%;
+    width: 8%;
+    height: 17%;
+  }
+  .pad .bookshop-title {
+    left: 29%;
+    width: 48%;
+    height: 46%;
+    top: 23%;
+  }
+  .pad .row img {
+    max-width: 700px;
+    height: 388px;
+  }
+  .pad .h-container {
+    width: 98%;
+  }
+  .pad .delete-switch {
+    width: 10%;
+    height: 24%;
+    left: -9%;
+    top: -14%;
+  }
+  .pad .book-del {
+    right: 4.2%;
+  }
+  .pad .main-outline {
+    padding: 0 4.5%;
+  }
+  .pad .big-cate {
+    top: 35%;
+    left: 3%;
+    width: 9%;
+    height: 49%;
+  }
+  .pad .giraffe {
+    width: 13%;
+  }
+  .pad .orange-bird {
+    width: 4%;
+  }
+  .pad .tap-position {
+    width: 12%;
+  }
+  .pad .movieclip {
+    width: 6%;
+    height: 38%;
+  }
+  .pad .big-cate,
+  .pad .load-more {
+    font-size: 32px;
+  }
+  .pad .metro-confirm-row {
+    font-size: 28px;
+  }
+  .pad .toast-message {
+    font-size: 24px;
+  }
+  .pad .confirm-dialog-container {
+    left: 35%;
+    width: 30%;
+  }
+  .pad .dog-path {
+    left: 56.5%;
+  }
+  .pad .finish .book-download {
+    right: 0;
+    bottom: 11%;
+  }
+  .pad .banner {
+    height: 15%;
+  }
+  .pad .progress-bar {
+    height: 36px;
+  }
+  .pad .row .placeholder {
+    height: 50px;
+  }
+  .pad .footer {
+    height: 7.2%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 60%;
+    height: 65%;
+  }
+  .pad .homePage .login-no {
+    right: 8%;
+    font-size: 50px;
+  }
+  .pad .homePage .login-guest {
+    right: 8%;
+    font-size: 50px;
+  }
+  .pad .homePage .user-tile {
+    width: 130px;
+    height: 130px;
+  }
+  .pad .userinfoview .display-avatar {
+    width: 100%;
+    right: 0%;
+    height: auto;
+    top: 10%;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 3%;
+  }
+  .pad .homePage .login .login-input {
+    font-size: 50px;
+  }
+  .pad .homePage .login .find-password {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-other {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-weibo {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .login-qq {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .button-style-red {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-username,
+  .pad .homePage .login .login-password,
+  .pad .homePage .login .register-email,
+  .pad .homePage .login .login-password2 {
+    padding: 0 0 0 60px;
+  }
+  .pad .homePage .login .find-password-bg {
+    height: 66px;
+  }
+  .pad .homePage .login .register-prompt {
+    font-size: 50px;
+  }
+}
+@media all and (width: 2304px) and (height: 1620px) and (orientation: landscape) {
+  .pad .dog-location {
+    margin-top: -2.5%;
+  }
+}
+@media all and (width: 2560px) and (min-height: 1799px) and (orientation: landscape) {
+  .pad {
+    /* pay */
+    /* userinfo */
+  }
+  .pad .grid {
+    margin: 7.5% 7.5% 0px 5.6%;
+    border-width: 136px;
+    height: 70%;
+  }
+  .pad .grid:before {
+    height: 121%;
+  }
+  .pad .grid:after {
+    height: 125%;
+  }
+  .pad .image-girl {
+    right: 1.2%;
+    height: 20%;
+  }
+  .pad .image-boy {
+    height: 18%;
+  }
+  .pad .delete-switch {
+    left: -8%;
+    top: -17%;
+    height: 26%;
+  }
+  .pad .bookshop-title {
+    left: 26.5%;
+    width: 48%;
+  }
+  .pad .payview .kite-box--theme_pay {
+    width: 60%;
+    height: 65%;
+  }
+  .pad .homePage .login-no {
+    right: 8%;
+    font-size: 50px;
+  }
+  .pad .homePage .login-guest {
+    right: 8%;
+    font-size: 50px;
+  }
+  .pad .homePage .user-tile {
+    width: 130px;
+    height: 130px;
+  }
+  .pad .userinfoview .display-avatar {
+    width: 100%;
+    right: 0%;
+    height: auto;
+    top: 10%;
+  }
+  .pad .friendinfoview .info-level,
+  .pad .userinfoview .info-level {
+    top: 3%;
+  }
+  .pad .homePage .login .login-input {
+    font-size: 50px;
+  }
+  .pad .homePage .login .find-password {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-other {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-weibo {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .login-qq {
+    padding: 0 0 0 86px;
+  }
+  .pad .homePage .login .button-style-red {
+    font-size: 50px;
+  }
+  .pad .homePage .login .login-username,
+  .pad .homePage .login .login-password,
+  .pad .homePage .login .register-email,
+  .pad .homePage .login .login-password2 {
+    padding: 0 0 0 60px;
+  }
+  .pad .homePage .login .find-password-bg {
+    height: 66px;
+  }
+  .pad .homePage .login .register-prompt {
+    font-size: 50px;
+  }
+}

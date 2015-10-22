@@ -1,0 +1,759 @@
+
+ .c-back {
+    position: absolute;
+    left: 1.6%;
+    top: 3.8%;
+    width: 8.74%;
+    height: 5.98%;
+    background-image: url('@{pad-image-path}/bookshop-back.png');
+    background-position: top;
+    z-index: 9;
+}
+.s-footer{ 
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 8.85%;
+    max-height: 134px;
+    background: url('@{pad-image-path}/view-footer.png') no-repeat;
+    background-size: 100% 100%;
+}
+.giraffe {
+    position: absolute;
+    right: 0;
+    bottom: 0.5%;
+    width: 15.9%;
+    height: 40.2%;
+    z-index: 9;
+}     
+.main-outline {
+    position: absolute;
+    /*top: 18.5%;
+    left: 5.4%;*/
+    bottom: 0;
+    left: 0;
+    margin: 0 5%;
+    
+    width: 89%;
+    height: 82%;
+    padding:0 6.5%; 
+    background-color: #f95555;
+    border: solid 0 rgb(99,14,23);
+    border-left-width: 5px;
+    border-right-width: 5px;       
+}
+/*.s-main-middle {
+    position: relative;
+    margin: 0 auto;
+    width: 86%;
+    height: 100%;
+    background-color: #FFF;
+}*/
+.s-main-blank {
+    width: 100%;
+    height: 9.5%;
+}
+
+.s-main-list{
+    position: relative;
+    margin: 0 auto;
+    width: 94%;
+    height: 75%;
+    overflow: hidden;
+    -webkit-transform:translateZ(0px);
+    position: relative;
+    z-index: 1;
+    border:4px solid #f95555;
+    border-radius:10px;
+    background:#fff;
+}
+.s-main-container {
+    width: 100%;
+    height: 100%;    
+    background-color: #FFF;
+    background-image: url('@{pad-image-path}/s-bg.png');
+    overflow: hidden;
+}
+.cyclopedia {
+    position: absolute;
+    top: 36.8%;
+    left: 2.5%;
+    width: 12.7%;
+    height: 10.9%;
+    background-image: url('@{pad-image-path}/cyclopedia.png');
+    background-position: center;
+}
+.brains {
+    position: absolute;
+    top: 49%;
+    left: 3.5%;
+    width: 11.5%;
+    height: 13%;
+    background-image: url('@{pad-image-path}/brains.png');
+    background-position: center;
+}
+.arts {
+    position: absolute;
+    top: 63.4%;
+    left: 3.6%;
+    width: 12%;
+    height: 13.6%;
+    background-image: url('@{pad-image-path}/arts.png');
+    background-position: center;
+}
+.recommend {
+    position: absolute;
+    top: 79%;
+    left: 3%;
+    width: 12%;
+    height: 11.2%;
+    background-image: url('@{pad-image-path}/recommend.png');
+    background-position: center;
+}
+.s-main-1 {       
+    width: 92%;
+  height: 16%;
+  margin: 0 auto;
+  background-size: 5% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: 10;
+  position: relative;
+
+}
+.s-nav {
+    width:16.6%;
+   height: 100%;
+   float: left;
+   position: relative;
+}
+.s-nav-1 {
+    background: url('@{pad-image-path}/s-nav-1.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-2 {
+    background: url('@{pad-image-path}/s-nav-2.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-3 {
+    background: url('@{pad-image-path}/s-nav-3.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-4 {
+    background: url('@{pad-image-path}/s-nav-4.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-5 {
+    background: url('@{pad-image-path}/s-nav-5.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-6 {
+    background: url('@{pad-image-path}/s-nav-6.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-8 {
+    background: url('@{pad-image-path}/s-nav-8.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.s-nav-7 {
+    background: url('@{pad-image-path}/s-nav-7.png') no-repeat ;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.active.s-nav-1 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-2 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-3 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-4 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-5 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-6 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-7 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.active.s-nav-8 {
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.s-nav .mask{
+    width:0%;
+    height:4px; 
+    background: url('../images/pad/s-nav-mask.png') no-repeat; 
+    background-size: 100% 100%; 
+    position: absolute;
+    bottom: -4px;
+    left:0%
+}
+.active.s-nav .mask {
+  width: 100%;
+
+
+}
+.activated.active.s-nav .mask  {
+  -webkit-animation: fillToRight 0.5s!important;
+  -moz-animation: fillToRight 0.5s !important;
+  animation: fillToRight 0.5s !important;
+}
+
+
+.bookshop-roof {
+    position: absolute;
+    width: 100%;
+    height: 26.5%;
+    background-image: url('@{pad-image-path}/s-roof.png');
+    background-size: 100% 100%;
+    z-index: 9;        
+}
+.bookshop-title {
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    width: 23%;
+    height: 23%;
+    background-image: url('@{pad-image-path}/s-title-1.png');
+    background-size: 100% 100%;  
+}
+.bookshop-search {
+    width: 100%;
+    height: 100%;
+    background-image: url('@{pad-image-path}/s-title-2.png');
+    background-size: 100% 100%;
+    display: none;
+}
+.bookshop-search input {
+    position: absolute;
+    top: 22.2%;
+    left: 9%;
+    width: 74%;
+    height: 52%;
+    background:transparent;
+    border: none;
+    /*font-size: 1.8rem;*/
+}
+.s-search-btn {
+    position: absolute;
+    top: 18%;
+    right: 4.5%;
+    width: 12%;
+    height: 60%;
+    background-image: url('@{pad-image-path}/search-btn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+.bookshop-back {
+    position: absolute;
+    left: 2%;
+    top: 11%;
+    width: 6.8%;
+    height: 36%;
+    background-image: url('@{pad-image-path}/bookshop-back.png');
+    background-position: top; ;
+}
+.arrow-up {
+    position: absolute;
+    left: 48%;
+    bottom: 0;
+    width:0px; 
+    height:0px; 
+    border-left: 9px solid transparent;  /* left arrow slant */
+    border-right:9px solid transparent; /* right arrow slant */
+    border-bottom:6px solid #FFF; /* bottom, add background color here */
+    font-size:0px;
+    line-height:0px;
+    display: none;
+}
+
+.active .arrow-up{
+    display: block;
+}
+
+.big-cate {
+    position: absolute;
+    top: 32%;
+    left: 2.8%;
+    width: 11.6%;
+    height: 61%;
+    /*font-size: 1.4rem;  */ 
+    z-index: 9;    
+}
+.big-age-cate {
+  position: absolute;
+  top: 32%;
+  left: 3.8%;
+  width: 8.6%;
+  height: 61%;
+ 
+}
+.big-age-cate .age{
+  position: absolute;
+  width: 100%;
+  height: 14%;
+  z-index: 101;
+  background: url('../images/pad/age.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
+  
+}
+.big-age-cate .cate-panle{
+  position: absolute;
+  z-index: 1000;
+  width: 200%;
+  height: 40%;
+  z-index: 100;
+  display:none;
+ z-index: 99999;
+
+}
+ .big-age-cate .age0{
+  position: absolute;
+   width: 40%;
+  height: 25%;
+   left: 14%;
+  top:50%;
+  background-image: url('../images/pad/age0.png');
+  background-size: 100% 100%;
+  
+}
+ .big-age-cate .age4{
+  position: absolute;
+ 
+  width: 40%;
+  height: 25%;
+ z-index: 1000;
+  left: 50%;
+   top:30%;
+  background-image: url('../images/pad/age4.png');
+  background-size: 100% 100%;
+  
+}
+.big-age-cate .age7{
+  position: absolute;
+ 
+  width: 40%;
+  height: 25%;
+
+  z-index: 1000;
+  left: 60%;
+  top: 0%;
+  background-image: url('../images/pad/age7.png');
+  background-size: 100% 100%;
+  
+}
+
+.big-cate > div {
+    background-position: center;
+    pointer-events: none;
+}
+.big-cate .on {
+    pointer-events:auto;
+    width:80%;
+    height:70%;
+    font-family: "迷你简少儿";
+}
+.big-cate > div:nth-child(1){      
+    width: 100%;
+    height: 18%;
+    background-image: url('@{pad-image-path}/cate-1.png');
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.big-cate > div:nth-child(2){
+    position: absolute;
+    top: 19.4%;
+    left: 5%;
+    width: 90%;
+    height: 20%;
+    background-image: url('@{pad-image-path}/cate-2.png');
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+} 
+.big-cate > div:nth-child(3){
+    position: absolute;
+    top: 40%;
+    left: 1.5%;
+    width: 94%;
+    height: 22%;
+    background-image: url('@{pad-image-path}/cate-3.png');
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+} 
+.big-cate > div:nth-child(4){
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    width: 93%;
+    height: 16%;
+    background-image: url('@{pad-image-path}/cate-4.png');
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.big-cate > div:nth-child(5){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 93%;
+    height: 16.5%;
+    background-image: url('@{pad-image-path}/cate-5.png');
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+}
+.big-cate .active {
+    color:#FFF;
+}
+.big-cate .active:nth-child(1){
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.big-cate .active:nth-child(2){
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+} 
+.big-cate .active:nth-child(3){
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+} 
+.big-cate .active:nth-child(4){
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.big-cate .active:nth-child(5){
+    background-size: 100% 200%;
+    background-position: 0% 100%;
+}
+.bookshop .cell {
+    position: relative;
+    text-align: center;
+}
+
+.load-more{ 
+    display: none;
+    position : relative;
+    margin: 0 10px 2% 2%;
+    background-color:#f95555; 
+    color:#eee; 
+    font-weight:bold; 
+    text-align:center;
+    padding:10px 0; 
+    cursor:pointer; 
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "迷你简少儿";  
+}
+.load-more:before{
+  top:2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  content: " ";
+  border: 1px dotted #fff;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+}
+.load-more:hover { 
+    color:#fff; 
+}
+.l-v-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  
+  display: -moz-box;
+  display: -moz-flex;
+  
+  display: -ms-flexbox;
+  
+  display: flex;
+  
+  /* 水平居中*/
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-pack:center;/* IE 10 */
+  
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;/* IE 11+,Firefox 22+,Chrome 29+,Opera 12.1*/
+  
+  /* 垂直居中 */
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-align:center;/* IE 10 */
+  
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+}
+
+
+/* bookshop details */
+.img-rounded {
+    border: 1px dashed #000;
+    padding:2px;
+    width: 90%;
+}
+.kite-box p{
+  line-height: 100%;
+  margin: 10px 0px;
+}
+.kite--fill-a {
+    height:50%;
+    border-bottom: 2px dotted #222;
+    margin-bottom:10px;
+}
+.kite--middle-top {
+    width:90%;
+    height:100%;
+}
+.kite__item_left {
+    width:40%
+}
+.kite__item_right {
+    width:60%
+}
+.kite-box--in {
+    width: 70%;
+    height: 69%;
+}
+.x-large__title {
+    font-size:36px;
+    color:#E24C41; 
+}
+.x-media__title {
+    font-size:27px;
+    color:#74360D;
+}
+
+.kite-box .user-fund {
+  float: left;
+  width: 36%;
+  font-size: 16px;
+  height: 100%;
+  margin-left: 13%
+}
+.kite-box .user-fund-pay {
+
+   display:none;
+    float: left;
+  width: 26%;
+  font-size: 16px;
+  height: 100%;
+}
+.kite-box .user-fund-pay img{
+  height: 100%;
+
+}
+.kite-box .user-fund-status {
+ margin-left: 4%;
+  float: left;
+  width: 40%;
+  font-size: 16px;
+  height: 100%;
+}
+.kite-box .user-fund-status img{
+  width: 100%;
+  height: 100%;
+
+}
+.kite__item_content {
+    font-size: 24px;
+}
+.kite-box--border {
+    border-image-width: 56px;
+}
+.detailsview {
+    pointer-events:auto;
+}
+.detailsview .kite__item_content{
+  max-height: 300px;
+  overflow-y:scroll;
+  font-family: verdana, arial, helvetica, sans-serif; 
+  font-size: small;
+ 
+  width:100%;
+}
+.bar-green-bg .user-fund-l {
+    background-image: url('../images/login/green-fund-l.png');
+}
+.bar-green-bg .user-fund-r {
+    background-image: url('../images/login/green-fund-r.png');
+}
+.bar-green-bg .user-fund-m {
+    background-image: url('../images/login/green-fund-m.png');
+}
+
+.bookshop .mybook{
+    background-image: url('../images/pad/mybook.png');
+  background-size: 100% 100%;
+  position: absolute;
+  right: 4%;
+  top: 22%;
+  width: 11%;
+  height: 11.98%;
+  z-index: 2;
+cursor: pointer;
+}
+.detailsview .kite-box--buy{
+    position: absolute;
+    left: 23.5%;
+    top: 34%;
+    display:none;
+    width: 54%;
+    height: 32%;
+     background-image: url('../images/pad/detail_buy_bg.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    z-index:999999;
+}
+.detailsview .kite-box--buy--close{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  background-image: url("../images/detail-buy-close.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.detailsview .kite-box--buy .buy--content{
+  width:100%;
+  height:120%;
+  position:relative;
+  top:-10%;
+}
+.detailsview .kite-box--buy .title{
+ 
+     width: 90%;
+    height: 25%;
+     margin:auto;
+    background-image: url('../images/pad/detail_buy_title.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.detailsview .kite-box--buy .card{
+  margin:auto;
+   width: 75%;
+  height: 50%;
+  position: relative;
+  top: -1.5%;
+}
+.detailsview .kite-box--buy .card .one{
+  width:33%;
+  height:100%;
+   background-image: url('../images/pad/detail_buy_one.png');
+    background-size: 95% 100%;
+    background-repeat:no-repeat;
+    float:left;
+  background-position: center center;
+}
+.detailsview .kite-box--buy .card .half{
+  width:33%;
+  height:100%;
+  background-image: url('../images/pad/detail_buy_half.png');
+  background-size: 95% 100%;
+  background-repeat:no-repeat;
+  float:left;
+  background-position: center center;
+}
+.detailsview .kite-box--buy .card .buy{
+  width:33%;
+  height:100%;
+  background-image: url('../images/pad/detail_buy_book.png');
+  background-size: 95% 100%;
+  background-repeat:no-repeat;
+  float:left;
+  background-position: center center;
+}
+.detailsview .kite-box--buy .card .buy .price{
+  position:relative;
+  left:25%;
+  top: 67%;
+  font-size: 1.2rem;
+  font-family: '宋体';
+  font-weight: bold;
+  color: #FF3332;
+  
+}
+ 
+.detailsview .kite-box--buy .line{
+  margin:auto;
+  width:84%;
+  height:5%;
+  background-image: url('../images/pad/detail_buy_line.png');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: -4%;
+}
+.detailsview .kite-box--buy .buys{
+  margin:auto;
+  width:75%;
+  height:15%;
+}
+.detailsview .kite-box--buy .buys div{
+  height: 100%;
+  float: left;
+  width: 33.33%;
+  background-image: url('../images/pad/shop_detail_buy.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 80%;
+}
+.detailsview .toolbar__recharge{
+  height: 3rem;
+}
+
+.bookshop .childBook {
+  background-image: url('../images/pad/reading_bookshop.png');
+}
+
+.bookshop .collectionBook{
+    background-image: url('../images/pad/collectionbook.png');
+}
+.bookshop .childbookstore{
+  width: 7%;
+  height: 40%;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  background-image: url('../images/pad/store.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.classBackground{
+  position: absolute;
+  background-image: url('../images/pad/bookshopbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 90%;
+  height: 90%;
+  display: none;
+  left: 5%;
+}

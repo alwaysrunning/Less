@@ -1,0 +1,604 @@
+body{
+ 
+}
+@font-face {
+    font-family: "迷你简少儿";
+    src: url('@{font-path}/miniSCFont.eot');                                    /* IE9 Compat Modes */
+    src: url('@{font-path}/miniSCFont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('@{font-path}/miniSCFont.woff') format('woff'),                /* Modern Browsers */
+             url('@{font-path}/miniSCFont.ttf')  format('truetype'),            /* Safari, Android, iOS */
+             url('@{font-path}/miniSCFont.svg#迷你简少儿') format('svg');       /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+.view {
+    background: url("@{pad-image-path}/../background.png"),
+    url("@{pad-image-path}/../bootstrap.png"),
+    no-repeat 0 0;
+     background-size: 100% 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.page{
+    overflow: hidden; 
+}
+.start1{
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    width: 2%;
+    height: 3.6%;
+     background-image: url('@{pad-image-path}/start1.png');
+    background-size:100% 200%;
+      background-repeat: no-repeat;
+      background-position:0 100%;
+   
+}
+.start2{
+    position: absolute;
+    left: 35.5%;
+    top: 10%;
+    width: 2%;
+    height: 3.6%;
+     background-image: url('@{pad-image-path}/start1.png');
+   background-size:100% 200%;
+      background-repeat: no-repeat;
+      background-position:0 100%;
+      display: none;
+   
+}
+.start3{
+     position: absolute;
+     left: 62.5%;
+     top: 13.5%;
+     width: 2%;
+     height: 3.6%;
+     background-image: url('@{pad-image-path}/start1.png');
+     background-size:100% 200%;
+     background-repeat: no-repeat;
+     background-position:0 100%;
+     display: block
+   
+}
+.start4{
+    position: absolute;
+    left: 76%;
+    top: 3%;
+    width: 2%;
+    height: 3.6%;
+    background-image: url('@{pad-image-path}/start1.png');
+   background-size:100% 200%;
+      background-repeat: no-repeat;
+      background-position:0 100%;
+   
+}
+.start5{
+    position: absolute;
+    right: 2%;
+    top: 12%;
+    width: 2%;
+    height: 3.6%;
+     background-image: url('@{pad-image-path}/start1.png');
+    background-size:100% 200%;
+      background-repeat: no-repeat;
+      background-position:0 100%;
+   
+}
+.grid{
+ 
+    /*min-height: 550px;
+    height: 680px; 
+    max-height: 720px;  */
+    /* margin: 78px 82px 0px 50px;
+    padding: 0px;
+    height: 70%;
+    border-style: solid;
+    border-width: 60px;
+    -moz-border-image: url("@{pad-image-path}/00.png") 105 round;
+    -webkit-border-image: url("@{pad-image-path}/00.png") 105 round;
+    -o-border-image: url("@{pad-image-path}/00.png") 105 round;
+    border-image: url("@{pad-image-path}/00.png") 105 round;
+    
+    -moz-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    -webkit-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    -o-border-image: url("@{pad-image-path}/00.png") 105 fill round;
+    border-image: url("@{pad-image-path}/00.png") 105 fill round; */
+
+  position: relative;
+  margin: 128px 68px 0px 60px;
+  padding: 0px;
+  height: 68%;
+  background: url("@{pad-image-path}/11.png") no-repeat;
+  background-size:100% 100%;
+  border: none;
+  padding: 3.5% 2% 3%;
+}
+.grid:before{
+    display: none;
+    /* position: absolute;
+    top: 0px;
+    z-index: -1;
+    display: block;
+    content: "";
+    border: 1px dashed #000;
+    width: 114%;
+    background-color: #e24c41;
+    margin-top: -5%;
+    margin-left: -8.5%;
+    height: 117%;
+    border-radius: 5%;
+    border-radius: 5%;
+    -webkit-transform-origin: 100% 30%;
+    -webkit-transform: rotate(-4deg) translate(-15px ,10px); */
+}
+.grid:after{
+    display: none;
+    /* position: absolute;
+    top: 0px;
+    z-index: -2;
+    display: block;
+    content: "";
+    background-color: #e24c41;
+    width: 116%;
+    margin-top: -6%;
+    margin-left: -9.5%;
+    height: 120.5%;
+    border-radius: 5%;
+    border-radius: 5%;
+    -webkit-transform-origin: 100% 30%;
+    -webkit-transform: rotate(-4deg) translate(-15px ,10px);
+    -webkit-box-shadow: -8px 8px 15px 3px rgba(0,0,0,0.4); */
+}
+.delete-switch{
+    position: absolute;
+    display: none;
+    width: 9%;
+    height: 20.2%;
+    left: -6%;
+    z-index: 99;
+    top: -6%;
+    background-size: contain;
+    cursor: pointer;
+}
+.delete-switch>.scissor{
+  background: url("../images/sprite/scissor/scissor.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 500%;
+}
+.h-container {
+    margin: 0 auto;
+    height: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transform:translateZ(0px);
+}
+.row{
+    margin: 0px;
+    padding: 16px 0px 0px;
+}
+.row img{
+    border: 1px dotted #d9d9d9;
+    padding: 2px;
+    width:100%;
+    max-width: 390px;
+    height: 164px;
+    max-height: 390px;
+}
+.equalheight {
+    overflow: hidden; 
+}
+.equalheight>div {
+    height:100%;
+    text-align: center;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75.2%;
+    height: 8%;
+    background: url('@{pad-image-path}/bannerIndex.png') no-repeat;
+    background-size: 100% 100%;
+    z-index:10;    
+}
+.footer{ 
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 8.85%;
+    max-height: 134px;
+    background: url('@{pad-image-path}/view-footer.png') no-repeat;
+    background-size: 100% 100%;
+    z-index:10;
+}
+.child-bookshop {
+    position: absolute;
+    top: 6.5%;
+    right: 0%;    
+    width: 16.8%;
+    height: 30%;
+    background-image: url('@{pad-image-path}/child-bookshop.png');
+    background-position: right top;
+    z-index:9;
+}
+.stack-room {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 66%;
+    height: 24%;;
+    background-image: url('@{pad-image-path}/stack-room.png');
+    background-position: center;
+} 
+.bookshop {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 55%;
+    height: 50%;
+    pointer-events:  auto;
+}
+.my-books{
+    position: absolute;
+    left: 1.5%;
+    bottom: 0;
+    width: 35%;
+    height: 23.7%;
+    z-index:9;
+}
+.image-girl {
+    position: absolute;
+    right: 1%;
+    bottom: 6.8%;
+    width: 12.89%;
+    height: 22.6%;
+    background-image: url('@{pad-image-path}/child-girl.png');
+    background-size:100% 100%;
+    z-index:19;
+}
+.image-boy {
+    position: absolute;
+    right: 12.5%;
+    bottom: 6.8%;
+    width: 8.59%;
+    height: 19.79%;
+    background-image: url('@{pad-image-path}/child-boy.png');
+    background-position: center bottom;
+    z-index:19;
+}
+.treasure-box {
+    position: absolute;
+    right: 21.5%;
+    bottom: 3%;
+    width: 8%;
+    height: 15.88%;
+}
+.box-top {
+    margin: 0 auto;
+    width: 90%;
+    height: 78%;
+    background-image: url('@{pad-image-path}/box-top.png');
+    background-position: center;
+}
+.box-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 39%;
+    background-image: url('@{pad-image-path}/box-title.png');
+    background-position: top;
+}
+.blue-bird {
+    position:absolute;
+    top: -4%;
+    right: 8%;
+    width: 78%;
+    height: 20%;
+    z-index: 9; 
+    -webkit-transform:translateZ(0px);
+}
+.orange-bird {
+    position: absolute;
+    top: 3.8%;
+    right: 0.5%;
+    width: 6.05%;
+    height: 7.3%;
+}
+.image-contain {
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.elem-cursor {
+    cursor: pointer;
+}
+.book-del {
+    position:absolute;
+    right: 0%;
+    top: -6%;
+    width: 20%;
+    height: 20%;
+    background-image: url('@{pad-image-path}/del-btn1.png');
+    background-position: top right;
+    display: none;
+}
+.book-download , .book-new , .book-recommend ,.book-free{
+    position:absolute;
+    background-position: top right;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.book-new , .book-recommend , .book-free{
+    left: 0%;
+    top: -6%;
+    width: 20.5%;
+    height: 24%;
+    display: block;
+}
+.book-free{
+    background-image: url('../images/free.png');
+}
+.book-new{
+    background-image: url('../images/new.png');
+}
+.book-recommend{
+    background-image: url('../images/recommend.png');
+}
+.finish .book-download{
+    right: 2%;
+    bottom: 13%;
+    width: 16%;
+    height: 20%;
+}
+.running .book-download,
+.waiting .book-download,
+.paused .book-download,
+.finish .book-download{
+    display: block;
+}
+.running .book-download,
+.waiting .book-download,
+.paused .book-download{
+  right: 6%;
+  bottom: 7%;
+  width: 20%;
+  height: 25%;
+}
+.running .book-download{
+    background-image: url('@{pad-image-path}/../pause.png');
+}
+.waiting .book-download{
+    background-image: url('@{pad-image-path}/../pause.png');
+}
+.paused .book-download{
+    background-image: url('@{pad-image-path}/../continue.png');
+}
+.finish .book-download{
+    background-image: url('@{pad-image-path}/../success.png');
+}
+
+/*
+.waiting .img-rounded{
+    opacity: 0.6;
+}
+.paused .img-rounded{
+    opacity: 0.6;
+}
+.running .img-rounded{
+    opacity: 0.6;
+}*/
+
+.row .placeholder {
+    height: 30px;
+    content: " ";
+    line-height: 100%;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid transparent;
+    overflow: hidden;
+} 
+.none-events {
+  pointer-events: none;
+}
+.boy-head-top {
+    width: 100%;
+    height: 27%;
+}
+.boy-mouth-top {
+    width: 100%;
+    height: 7%;
+}
+.boy-eye {
+    width: 100%;
+    height: 6.6%;
+}
+.boy-mouth {
+    width: 100%;
+    height: 4.5%;
+}
+
+.girl-head-top {
+    width: 100%;
+    height: 20%;
+}
+.girl-mouth-top {
+    width: 100%;
+    height: 2%;
+}
+.girl-eye {
+    width: 100%;
+    height: 8%;
+}
+.girl-mouth {
+    width: 100%;
+    height: 5.6%;
+}
+.girl-braid {
+    position: absolute;
+    top: 23.2%;
+    width: 100%;
+    height: 34%;
+}
+.dog-location {
+    position: relative;  
+    margin-top: -3.5%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform:translateZ(0px);
+}
+.duku {
+    position: absolute;
+    top: 0;
+    left: 5.2%;
+    width: 14.5%;
+    height: 5%;
+    background-image: url('@{pad-image-path}/../lib-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain; 
+    z-index: 13;   
+}
+.bookshop .duku{
+      left: 83%;
+}
+.view-widget {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.readingbook,.collectionBook{ 
+    position:absolute; 
+    top:52%; 
+    left:5%; 
+    width:20%; 
+    height:190%; 
+    background-image: url('../images/pad/collectionbook.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.readingbook{
+    background-image: url('../images/pad/readingbook.png');
+}
+.listenBook{ 
+    position:absolute;
+    top:55%; 
+    left:28%; 
+    width:18%; 
+    height:190%;
+    background-image: url('../images/pad/listenbook.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.comparison{ 
+    position:absolute; 
+    top:43%; 
+    left:49%; 
+    width:22%; 
+    height:190%;
+    background-image: url('../images/pad/comparison.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.childBook{ 
+    position:absolute; 
+    top:0; 
+    left:73%; 
+    width:24%; 
+    height:210%;
+    background-image: url('../images/pad/childbook.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.homePage .user-info-p,.homePage .login-no{
+    float:left;
+    width:100%;
+    height:100%;
+    padding:3%;
+    background-image: url('../images/pad/btnBg.png');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    ackground-position: center center;
+    position: inherit;
+   
+}
+.homePage .user-tile {
+  margin: 0 auto; 
+  width: 75%;
+  height: 100%;
+  background: none;
+  padding: 13px;
+}
+.user_nav{
+   position: absolute;
+  top: 1%;
+  width: 22%;
+  height: 9%;
+  right: 2%;
+  z-index:10;
+}
+.homePage  .login-info{
+     width:50%;
+   height:100%; 
+   float:left;
+}
+.homePage .user-info-img{
+  margin: 8.5% auto;
+    width:60%;
+   height:75%; 
+    background-image: url('../images/pad/user-login.png');
+    background-size: 80% 80%;
+    background-repeat:no-repeat;
+    background-repeat:no-repeat;
+     background-position: center center;
+
+}
+.homePage .user-payment{
+   float: left;
+  width:50%;
+  height: 100%;
+  background-image: url("../images/pad/user-payment.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.homePage .plane{
+    position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: rgba(0,0,0,0.5);
+}
+.homePage .plane .planeAni{
+    position: absolute;
+  
+  background-image: url("../images/sprite/plane/plane.png");
+  background-size: 100% 500%;
+  
+    background-position:0 0;
+    width: 30%;
+  height: 18%;
+  left: 35%;
+  top: 35%;
+
+}
+.homePage .plane .word{
+      position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 60%;
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "迷你简少儿";
+}

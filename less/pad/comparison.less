@@ -1,0 +1,179 @@
+.contrastPage .contrast{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/pad/background1.png');
+    background-repeat:repeat;
+    position: relative;
+    z-index: 999;
+    font-family: "迷你简少儿";
+    font-size: 1rem
+}
+
+.contrastPage .goBack{
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	width: 9%;
+	height: 10%;
+	background-image: url("../images/pad/goBack.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.contrastPage .rank{
+	width: 76%;
+	height: 85%;
+	position: absolute;
+	left: 12%;
+	top: 11%;
+	background-image: url("../images/pad/conBg.png");
+	background-size: 100% 100%;
+}
+
+.contrastPage .cloud2,.contrastPage .cloud1{
+    width: 10%;
+	height: 8%;
+	position: absolute;
+	left: 6%;
+	top: 68%;
+	background-image: url("../images/pad/cld.png");
+	background-size: 100% 100%;
+	z-index: 9;
+	display: none;
+}
+.contrastPage .cloud2{
+	right: 6%;
+	top: 25%;
+	left: inherit
+}
+
+.contrastPage .rank .refresh{
+	position: absolute;
+	right: 0;
+	width: 6%;
+	height: 7%;
+	background-image: url("../images/pad/refresh.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.contrastPage .rank .subtitle{
+	position: absolute;
+	width: 30%;
+	height: 12%;
+	left: 35%;
+	top: -6%;
+	background-image: url("../images/pad/contrast.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+}
+.contrastPage .rank .rankType{
+	width: 90%;
+	height: 4%;
+	top: 9%;
+	left: 4%;
+	padding-left: 0;
+	position: absolute;
+}
+.contrastPage .rank .rankType li{
+	width: 24%;
+	height: 100%;
+	float: left;
+	margin-left: 1%;
+	border:1px dashed #7b6c55;
+	color:#653300;
+	text-align: center;
+	list-style-type: none;
+	padding-top: 0.3%;
+	color: #663200;
+	font-weight: bold;
+}
+
+.contrastPage .rank .rankType li.current{
+	background: #ff7560
+}
+
+.contrastPage .rank .rankCtn{
+	width: 90%;
+	height: 70%;
+	top: 14%;
+	left: 5%;
+	position: absolute;
+	padding-left: 0;
+	margin-bottom: 0;  
+}
+.contrastPage .rank .rankCtn li{
+	list-style-type: none;
+	margin: 2% 0;
+	border-bottom:1px dashed #7e6e54;
+	height: 7%;
+}	     
+.contrastPage .rank .rankCtn li span{ 
+    width: 25%;
+    height: 100%;
+	float: left;
+	color:#010000;
+	text-align: center;
+	font-size: 1.2rem
+}
+.contrastPage .rank .rankCtn li span strong{
+    position: relative;
+    top: -8%;
+	padding-top: 0;
+    display: inline-block;
+    border-radius: 100%;
+    width: 17%;
+    height: 90%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color:#fff;
+	font-size: 1.1rem
+}
+.contrastPage .rank .rankCtn li span strong.num1{
+   background-image: url("../images/pad/num1.png");
+}
+.contrastPage .rank .rankCtn li span strong.num2{
+   background-image: url("../images/pad/num2.png");
+}
+.contrastPage .rank .rankCtn li span strong.num3{
+   background-image: url("../images/pad/num3.png");
+}
+.contrastPage .rank .rankCtn li span strong.nums{
+   background-image: url("../images/pad/nums.png");
+}
+
+.contrastPage .rank .rankCtn li:after{
+	display:inline-block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:'.';
+	list-style-type: none;
+}
+.contrastPage .rank .rankCtn li{zoom:1;}
+.contrastPage .rank .myRank{
+	width: 90%;
+	height: 9%;
+	bottom: 3%;
+	left: 5%;
+	position: absolute;   
+}
+.contrastPage .rank .myRank span{
+	width: 25%;
+	float: left;
+	color:#ff3300;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6rem;
+	height: 100%
+}
+.contrastPage .rank .myRank span strong.num{
+    display: inline-block;
+    border-radius: 100%;
+    width: 28%;
+    height: 80%;
+    background-image: url("../images/pad/mynum.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color:#fff;
+	position: relative;
+	top:-6%
+}
